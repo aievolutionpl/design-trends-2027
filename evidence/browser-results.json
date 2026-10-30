@@ -1,0 +1,226 @@
+[
+  {
+    "viewport": "phone",
+    "width": 390,
+    "scrollWidth": 390,
+    "trendCount": 10,
+    "sourceLinks": 10,
+    "visualKinds": [
+      "visual analog",
+      "visual cute",
+      "visual process",
+      "visual texture",
+      "visual surreal",
+      "visual type",
+      "visual dumb",
+      "visual geometry",
+      "visual glass",
+      "visual motion"
+    ],
+    "heroLoaded": 1672,
+    "contrast": [
+      {
+        "selector": ".hero-lead",
+        "ratio": 14.12
+      },
+      {
+        "selector": ".intro p",
+        "ratio": 14.12
+      },
+      {
+        "selector": ".trend-copy .desc",
+        "ratio": 14.12
+      },
+      {
+        "selector": ".agent p",
+        "ratio": 14.12
+      },
+      {
+        "selector": ".caution",
+        "ratio": 7.5
+      },
+      {
+        "selector": ".hero-link",
+        "ratio": 15.43
+      },
+      {
+        "selector": ".method-copy p",
+        "ratio": 12.42
+      },
+      {
+        "selector": ".footer-top p",
+        "ratio": 14.12
+      }
+    ],
+    "navHash": "#kierunki",
+    "errors": []
+  },
+  {
+    "viewport": "tablet",
+    "width": 768,
+    "scrollWidth": 768,
+    "trendCount": 10,
+    "sourceLinks": 10,
+    "visualKinds": [
+      "visual analog",
+      "visual cute",
+      "visual process",
+      "visual texture",
+      "visual surreal",
+      "visual type",
+      "visual dumb",
+      "visual geometry",
+      "visual glass",
+      "visual motion"
+    ],
+    "heroLoaded": 1672,
+    "contrast": [
+      {
+        "selector": ".hero-lead",
+        "ratio": 14.12
+      },
+      {
+        "selector": ".intro p",
+        "ratio": 14.12
+      },
+      {
+        "selector": ".trend-copy .desc",
+        "ratio": 14.12
+      },
+      {
+        "selector": ".agent p",
+        "ratio": 14.12
+      },
+      {
+        "selector": ".caution",
+        "ratio": 7.5
+      },
+      {
+        "selector": ".hero-link",
+        "ratio": 15.43
+      },
+      {
+        "selector": ".method-copy p",
+        "ratio": 12.42
+      },
+      {
+        "selector": ".footer-top p",
+        "ratio": 14.12
+      }
+    ],
+    "navHash": "#kierunki",
+    "errors": []
+  },
+  {
+    "viewport": "desktop",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "trendCount": 10,
+    "sourceLinks": 10,
+    "visualKinds": [
+      "visual analog",
+      "visual cute",
+      "visual process",
+      "visual texture",
+      "visual surreal",
+      "visual type",
+      "visual dumb",
+      "visual geometry",
+      "visual glass",
+      "visual motion"
+    ],
+    "heroLoaded": 1672,
+    "contrast": [
+      {
+        "selector": ".hero-lead",
+        "ratio": 14.12
+      },
+      {
+        "selector": ".intro p",
+        "ratio": 14.12
+      },
+      {
+        "selector": ".trend-copy .desc",
+        "ratio": 14.12
+      },
+      {
+        "selector": ".agent p",
+        "ratio": 14.12
+      },
+      {
+        "selector": ".caution",
+        "ratio": 7.5
+      },
+      {
+        "selector": ".hero-link",
+        "ratio": 15.43
+      },
+      {
+        "selector": ".method-copy p",
+        "ratio": 12.42
+      },
+      {
+        "selector": ".footer-top p",
+        "ratio": 14.12
+      }
+    ],
+    "navHash": "#kierunki",
+    "errors": []
+  },
+  {
+    "viewport": "small-phone",
+    "width": 320,
+    "scrollWidth": 320,
+    "trendCount": 10,
+    "sourceLinks": 10,
+    "visualKinds": [
+      "visual analog",
+      "visual cute",
+      "visual process",
+      "visual texture",
+      "visual surreal",
+      "visual type",
+      "visual dumb",
+      "visual geometry",
+      "visual glass",
+      "visual motion"
+    ],
+    "heroLoaded": 1672,
+    "contrast": [
+      {
+        "selector": ".hero-lead",
+        "ratio": 14.12
+      },
+      {
+        "selector": ".intro p",
+        "ratio": 14.12
+      },
+      {
+        "selector": ".trend-copy .desc",
+        "ratio": 14.12
+      },
+      {
+        "selector": ".agent p",
+        "ratio": 14.12
+      },
+      {
+        "selector": ".caution",
+        "ratio": 7.5
+      },
+      {
+        "selector": ".hero-link",
+        "ratio": 15.43
+      },
+      {
+        "selector": ".method-copy p",
+        "ratio": 12.42
+      },
+      {
+        "selector": ".footer-top p",
+        "ratio": 14.12
+      }
+    ],
+    "navHash": "#kierunki",
+    "errors": []
+  }
+]

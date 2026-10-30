@@ -1,0 +1,1385 @@
+render tier: 5 screenshots in /home/aibot/.hermes/projects/design-trends-2027/.hallmark/shots (1280x800, 1440x900, 1920x1080 folds; 1440 and 375 full pages)
+{
+  "summary": {
+    "fails": 112,
+    "reflex": 33,
+    "warns": 7,
+    "waived": 0,
+    "rejected": 0,
+    "answered": 0,
+    "dismissed": 0,
+    "notes": 0,
+    "files": 2,
+    "render": "ran"
+  },
+  "findings": [
+    {
+      "gate": "7a",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "pure #fff: background: #fff (.skip)",
+      "fix": "Tint the base toward the anchor hue"
+    },
+    {
+      "gate": "7a",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "pure #fff: color: #fff (.hero-link)",
+      "fix": "Tint the base toward the anchor hue"
+    },
+    {
+      "gate": "7a",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "pure #fff: background: #fff (.hero-art figcaption)",
+      "fix": "Tint the base toward the anchor hue"
+    },
+    {
+      "gate": "7a",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "pure #fff: background: white (.bubble)",
+      "fix": "Tint the base toward the anchor hue"
+    },
+    {
+      "gate": "7a",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "pure #fff: color: #fff (.texture-sheet)",
+      "fix": "Tint the base toward the anchor hue"
+    },
+    {
+      "gate": "7a",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "pure #fff: color: white (.sur-caption)",
+      "fix": "Tint the base toward the anchor hue"
+    },
+    {
+      "gate": "7a",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "pure #fff: color: white (.flyer b)",
+      "fix": "Tint the base toward the anchor hue"
+    },
+    {
+      "gate": "7a",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "pure #fff: color: white (.geo-pill)",
+      "fix": "Tint the base toward the anchor hue"
+    },
+    {
+      "gate": "19",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "index.html",
+      "line": 1,
+      "evidence": "dash \"—\" in copy",
+      "fix": "A comma, a colon, a full stop or parentheses; never a dash"
+    },
+    {
+      "gate": "20",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "no Hallmark stamp on the first non-empty line of any CSS",
+      "fix": "The stamp comment is line 1 of the CSS; only @charset may precede it"
+    },
+    {
+      "gate": "30a",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "index.html",
+      "line": 1,
+      "evidence": "emoji icon \"✳\" in <span class=\"brand-mark\">",
+      "fix": "One icon library or custom SVG"
+    },
+    {
+      "gate": "30a",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "index.html",
+      "line": 1,
+      "evidence": "emoji icon \"✳\" in <div class=\"flower\">",
+      "fix": "One icon library or custom SVG"
+    },
+    {
+      "gate": "34",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "no overflow-x: clip on html and body",
+      "fix": "overflow-x: clip on both html and body"
+    },
+    {
+      "gate": "38i",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "index.html",
+      "line": 1,
+      "evidence": "<em>/<i> inside <h1>",
+      "fix": "Roman headers; emphasis via weight or accent"
+    },
+    {
+      "gate": "38i",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "index.html",
+      "line": 1,
+      "evidence": "<em>/<i> inside <h2>",
+      "fix": "Roman headers; emphasis via weight or accent"
+    },
+    {
+      "gate": "38i",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "index.html",
+      "line": 10,
+      "evidence": "<em>/<i> inside <h2>",
+      "fix": "Roman headers; emphasis via weight or accent"
+    },
+    {
+      "gate": "40",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "index.html",
+      "line": 1,
+      "evidence": "[1280px] contrast 3.92:1 against the pixels behind < 4.5:1 on small \"pierwszy szkic\"",
+      "fix": "Raise the contrast to threshold"
+    },
+    {
+      "gate": "40",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "index.html",
+      "line": 1,
+      "evidence": "[1280px] contrast 1.92:1 against the pixels behind < 4.5:1 on span.sur-caption \"a different perspective\"",
+      "fix": "Raise the contrast to threshold"
+    },
+    {
+      "gate": "44d",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "index.html",
+      "line": 1,
+      "evidence": "[1920px] hero text starts 96px from the edge at 1920",
+      "fix": "Cap the container at 1360 to 1520px and centre it"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "font-family literal \"Arial,sans-serif\" on body",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #2355d4 outside tokens (outline on a:focus-visible)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #fff outside tokens (background on .skip)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #bec2b8 outside tokens (border-bottom on .top)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #435938 outside tokens (color on .brand-mark)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "font-family literal \"Georgia,serif\" on em",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #fff outside tokens (color on .hero-link)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #d4d0c7 outside tokens (background on .hero-art)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #fff outside tokens (background on .hero-art figcaption)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #bfc4b9 outside tokens (border-top on .trend)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #8b9688 outside tokens (border on .meta span:first-child)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #bfc4b9 outside tokens (border-top on .agent)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #465248 outside tokens (color on .caution)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #e6ad96 outside tokens (background on .analog)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #f8efd7 outside tokens (background on .paper)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #c3482f outside tokens (color on .paper)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #b97765 outside tokens (box-shadow on .paper)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #233a31 outside tokens (color on .paper em)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #e6e0a7 outside tokens (background on .tape)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #762d25 outside tokens (color on .flower)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #f5c5d1 outside tokens (background on .cute)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #d5ec84 outside tokens (background on .blob)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #c0dc6b outside tokens (box-shadow on .blob)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #273628 outside tokens (background on .blob i)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #cedbd6 outside tokens (background on .process)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #faf8ed outside tokens (background on .process>div)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #718071 outside tokens (color on .process>div)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #e16856 outside tokens (color on .process .draft)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #34473a outside tokens (background on .process .finalmark)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #e5f388 outside tokens (color on .process .finalmark)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #dcd5c4 outside tokens (background on .texture)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #47483c outside tokens (background on .texture-sheet)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #c4bca8 outside tokens (background on .texture-sheet)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #827d6e outside tokens (background on .texture-sheet)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #e1d7c0 outside tokens (background on .texture-sheet)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #fff outside tokens (color on .texture-sheet)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #28302a outside tokens (text-shadow on .texture-sheet span)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #28302a outside tokens (background on .texture-sheet i)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #9ac1d6 outside tokens (background on .surreal)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #f8d378 outside tokens (background on .sun)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #758e70 outside tokens (background on .hill)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #506f58 outside tokens (background on .hill2)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #f8ead2 outside tokens (color on .giant)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #233b34 outside tokens (color on .tiny-house)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #344dc1 outside tokens (background on .type)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #f3f79c outside tokens (color on .type)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #f1c2ce outside tokens (color on .type-art span:nth-child(even))",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "font-family literal \"Georgia\" on .type-art span:nth-child(even)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #f2d756 outside tokens (background on .dumb)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #f7f3d8 outside tokens (background on .flyer)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #d43832 outside tokens (border on .flyer)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #273caf outside tokens (color on .flyer)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "font-family literal \"'Comic Sans MS',cursive\" on .flyer",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #ed8394 outside tokens (background on .flyer span)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #e93b26 outside tokens (background on .flyer b)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #eee0f5 outside tokens (background on .geometry)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #ed705d outside tokens (color on .geo-star)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #97b756 outside tokens (background on .geo-circle)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #2e438e outside tokens (background on .geo-pill)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #f4ce4a outside tokens (background on .geo-square)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #acc8d4 outside tokens (background on .glass)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #285aaa outside tokens (background on .glass-orb)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #d37d64 outside tokens (background on .glass-orb.second)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #fff outside tokens (border on .glass-panel)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal rgba(255,255,255,.8) outside tokens (background on .glass-panel)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #202621 outside tokens (color on .glass-panel)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #e5e7a8 outside tokens (background on .motion)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #2b4937 outside tokens (background on .motion-line)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #304b3b outside tokens (background on .motion-dot)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #e17858 outside tokens (background on .motion-dot.b)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #395cc3 outside tokens (background on .motion-dot.c)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #d9f356 outside tokens (background on .method)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #9daf51 outside tokens (border-bottom on .method li)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #202621 outside tokens (background on footer)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #f6f5ee outside tokens (color on footer)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #667168 outside tokens (border-top on .sources)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "colour literal #667168 outside tokens (border-top on .footer-bottom)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "48",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 3,
+      "evidence": "colour literal #d9f356 outside tokens (outline-color on footer a:focus-visible)",
+      "fix": "Lift the value into the token block"
+    },
+    {
+      "gate": "50",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "bare 1fr track holds images (.hero)",
+      "fix": "Use minmax(0, 1fr) for image tracks"
+    },
+    {
+      "gate": "54",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "index.html",
+      "line": 1,
+      "evidence": "eyebrow \"01 Film / interpretacja\" before <h3>",
+      "fix": "Cut it; the heading already says this (craft.md § 7 has twelve other openings)"
+    },
+    {
+      "gate": "54",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "index.html",
+      "line": 2,
+      "evidence": "eyebrow \"02 Film / interpretacja\" before <h3>",
+      "fix": "Cut it; the heading already says this (craft.md § 7 has twelve other openings)"
+    },
+    {
+      "gate": "54",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "index.html",
+      "line": 3,
+      "evidence": "eyebrow \"03 Film / interpretacja\" before <h3>",
+      "fix": "Cut it; the heading already says this (craft.md § 7 has twelve other openings)"
+    },
+    {
+      "gate": "54",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "index.html",
+      "line": 4,
+      "evidence": "eyebrow \"04 Film / interpretacja\" before <h3>",
+      "fix": "Cut it; the heading already says this (craft.md § 7 has twelve other openings)"
+    },
+    {
+      "gate": "54",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "index.html",
+      "line": 5,
+      "evidence": "eyebrow \"05 Film / interpretacja\" before <h3>",
+      "fix": "Cut it; the heading already says this (craft.md § 7 has twelve other openings)"
+    },
+    {
+      "gate": "54",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "index.html",
+      "line": 6,
+      "evidence": "eyebrow \"06 Film / interpretacja\" before <h3>",
+      "fix": "Cut it; the heading already says this (craft.md § 7 has twelve other openings)"
+    },
+    {
+      "gate": "54",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "index.html",
+      "line": 7,
+      "evidence": "eyebrow \"07 Film / interpretacja\" before <h3>",
+      "fix": "Cut it; the heading already says this (craft.md § 7 has twelve other openings)"
+    },
+    {
+      "gate": "54",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "index.html",
+      "line": 8,
+      "evidence": "eyebrow \"08 Dodatkowy kierunek / research\" before <h3>",
+      "fix": "Cut it; the heading already says this (craft.md § 7 has twelve other openings)"
+    },
+    {
+      "gate": "54",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "index.html",
+      "line": 9,
+      "evidence": "eyebrow \"09 Dodatkowy kierunek / research\" before <h3>",
+      "fix": "Cut it; the heading already says this (craft.md § 7 has twelve other openings)"
+    },
+    {
+      "gate": "54",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "index.html",
+      "line": 10,
+      "evidence": "eyebrow \"10 Dodatkowy kierunek / research\" before <h3>",
+      "fix": "Cut it; the heading already says this (craft.md § 7 has twelve other openings)"
+    },
+    {
+      "gate": "54",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "index.html",
+      "line": 10,
+      "evidence": "eyebrow \"Notatka dla twórców i agentów\" before <h2>",
+      "fix": "Cut it; the heading already says this (craft.md § 7 has twelve other openings)"
+    },
+    {
+      "gate": "58",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "index.html",
+      "line": 1,
+      "evidence": "[1440px] hero carries 3 text blocks before its actions",
+      "fix": "Headline, one sentence, actions; delete the rest"
+    },
+    {
+      "gate": "67",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": ".edition,.section-kicker: uppercase tracked 0.1em at 13px in a label role",
+      "fix": "Labels, captions, table heads, nav links and meta are the body face (or the theme's label face), a step smaller, sentence case, untracked"
+    },
+    {
+      "gate": "67",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": ".meta: uppercase tracked 0.09em at 12px in a label role",
+      "fix": "Labels, captions, table heads, nav links and meta are the body face (or the theme's label face), a step smaller, sentence case, untracked"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "gap: 10px (off the 4px scale) on .brand",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "gap: 35px (off the 4px scale) on .top nav",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "padding: clamp(55px,7vw,120px) 5vw (off the 4px scale) on .hero-left",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "gap: 38px (off the 4px scale) on .hero-link",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "padding: 16px 22px (off the 4px scale) on .hero-link",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "margin: 25px 0 (off the 4px scale) on .hero-link",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "padding-top: 35px (off the 4px scale) on .hero-foot",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "padding: 5px 10px (off the 4px scale) on .hero-art figcaption",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "padding-top: 35px (off the 4px scale) on .intro>div:last-child",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "padding: 65px 0 (off the 4px scale) on .trend",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "margin-top: 14px (off the 4px scale) on .trend-copy>a",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "padding: 14px 20px (off the 4px scale) on .bubble",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "padding: 6px (off the 4px scale) on .texture-sheet i",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "padding: 22px (off the 4px scale) on .flyer b",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "padding: 35px 50px (off the 4px scale) on .geo-pill",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "padding: 10px 0 (off the 4px scale) on .method li",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "padding: 100px 5vw 30px (off the 4px scale) on footer",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "margin-top: 90px (off the 4px scale) on .sources",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "padding: 45px 0 (off the 4px scale) on .sources",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "margin: 10px 0 (off the 4px scale) on .sources a",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "padding-top: 25px (off the 4px scale) on .footer-bottom",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "gap: 15px (off the 4px scale) on .top nav",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "padding: 65px 6vw (off the 4px scale) on .hero-left",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "gap: 10px (off the 4px scale) on .intro,.method",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "padding: 75px 6vw (off the 4px scale) on .intro,.method",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "padding: 55px 0 (off the 4px scale) on .trend",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "gap: 25px (off the 4px scale) on .footer-top,.sources",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "margin-top: 55px (off the 4px scale) on .sources",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "gap: 10px (off the 4px scale) on .top nav",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "padding: 25px 35px (off the 4px scale) on .geo-pill",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "26b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "no :active styling anywhere",
+      "fix": "All eight states; guard: not a form control, no aria-disabled anywhere"
+    },
+    {
+      "gate": "72",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "index.html",
+      "line": 1,
+      "evidence": "[1440px] text crowds the edge of its box: i left 6px, right 6px",
+      "fix": "Pad the box: max(8px, 0.5em) at the sides, max(4px, 0.3em) above and below"
+    },
+    {
+      "gate": "81",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "index.html",
+      "line": 1,
+      "evidence": "[1440px] 1 empty picture: div.texture-sheet 472x490, a gradient with nothing in it",
+      "fix": "Put the picture in: the user's image, a library photograph (theme.mjs photos) or the product built at full fidelity; the wash is only a loading colour (imagery.md § 3)"
+    },
+    {
+      "gate": "29",
+      "grade": "WARN",
+      "tier": "reflex",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "glass panel: backdrop-filter blur over a translucent white on .glass-panel",
+      "fix": "Solid or grained surface; elevation by lightness"
+    },
+    {
+      "gate": "40",
+      "grade": "WARN",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "4.27:1 < 4.5:1 on .paper",
+      "fix": "Raise the contrast to threshold"
+    },
+    {
+      "gate": "40",
+      "grade": "WARN",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "3.92:1 < 4.5:1 on .process>div",
+      "fix": "Raise the contrast to threshold"
+    },
+    {
+      "gate": "40",
+      "grade": "WARN",
+      "tier": "floor",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "4.10:1 < 4.5:1 on .flyer b",
+      "fix": "Raise the contrast to threshold"
+    },
+    {
+      "gate": "58",
+      "grade": "WARN",
+      "tier": "floor",
+      "file": "index.html",
+      "line": 1,
+      "evidence": "726 visible words on the page (450 at most)",
+      "fix": "Cut copy: one idea per screen, sections become objects"
+    },
+    {
+      "gate": "58",
+      "grade": "WARN",
+      "tier": "floor",
+      "file": "index.html",
+      "line": 1,
+      "evidence": "[1440px] 83 words on one screen (from y=8200)",
+      "fix": "Close to the 80-word screen budget"
+    },
+    {
+      "gate": "F3",
+      "grade": "WARN",
+      "tier": "finish",
+      "file": "style.css",
+      "line": 1,
+      "evidence": "no text-wrap: balance on any display head (4 head rule(s), e.g. .hero h1,.intro h2,.method h2,.…)",
+      "fix": "Add text-wrap: balance to h1/h2-level heads"
+    }
+  ]
+}
