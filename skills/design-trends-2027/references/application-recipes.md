@@ -111,3 +111,71 @@ Read the selected numbered entry only. Colors below are starting palettes, not c
 - **Anti-pattern:** scroll hijacking, perpetual motion or animation as the only feedback.
 - **QA:** test reduced motion, keyboard access, content without animation, browser fallback and low-powered devices.
 - **Brief example:** editorial site where a diagram transitions between steps while the full static explanation remains accessible.
+
+
+## 11. Playful retro computing
+- **Decision and use:** technology editorial or events seeking playful historical references; avoid imitating operating-system controls in functional workflows.
+- **Composition:** modular pixel grid, one oversized cursor or window and a separate readable information area.
+- **Color:** cream `#F7F1DE`, cobalt `#2042A0`, orange `#E76822`; verify contrast.
+- **Typography:** licensed bitmap display for short labels, neutral sans for body and Polish glyphs.
+- **Imagery:** original pixel motifs or licensed retro assets; do not present fictitious data as real.
+- **Motion:** optional single cursor movement; keep static equivalent.
+- **Anti-pattern:** fake interactive windows or inaccessible pixel body type.
+- **QA:** test labels, focus, recognition, contrast and actual-size legibility.
+- **Brief example:** exhibition poster about early computing with clear event details.
+
+## 12. Quiet editorial
+- **Decision and use:** long-form reading, independent publishing or considered storytelling; not the best lead for energetic festival promotion.
+- **Composition:** disciplined grid, one image and generous negative space with a clear reading order.
+- **Color:** ivory `#F2EDE1`, forest `#1D3830`, charcoal `#202521`; test text/background pairing.
+- **Typography:** licensed expressive serif headline and highly legible body type; check Polish characters.
+- **Imagery:** one authorized photograph or clearly labelled synthetic still life.
+- **Motion:** optional quiet transition; complete static reading experience.
+- **Anti-pattern:** low contrast, tiny type or empty space that hides navigation.
+- **QA:** test actual contrast, text sizing, responsive layout, reading order and image rights.
+- **Brief example:** independent journal cover with single paper sculpture and prominent title.
+
+## 13. Ornamental maximalism
+- **Decision and use:** cultural editorial, hospitality or beauty with a deliberately rich tone; avoid as lead for urgent data-heavy tasks.
+- **Composition:** one focal still life, 2–3 recurring ornamental motifs, and a quiet separate copy zone.
+- **Color:** burgundy `#692834`, cream `#F5EADA`, silver `#B9B9B5`; check contrast.
+- **Typography:** licensed ornamental display for a short title, neutral body font with Polish glyphs.
+- **Imagery:** original or licensed lace, flowers and silverware; synthetic materials are not proof of craft.
+- **Motion:** optional slow reveal of one detail with static equivalent.
+- **Anti-pattern:** decoration behind essential small text or copying cultural motifs without context and permission.
+- **QA:** check hierarchy at final size, provenance, licensing, image crop and contrast.
+- **Brief example:** boutique fragrance editorial with rich objects and a clean information strip.
+
+
+## 14. Data poetry
+- **Decision and use:** editorial stories grounded in a verifiable dataset; decorative data-like patterns must be explicitly labelled as illustration.
+- **Composition:** one flowing field of points and lines with a separate legend and a calm reading area.
+- **Color:** navy `#18243A`, cream `#F5EBDD`, coral `#D95C50`; verify contrast.
+- **Typography:** neutral legible sans for labels and source, expressive display for the title.
+- **Imagery:** map actual values with documented units and scale; never claim synthetic marks are real data.
+- **Motion:** optional sequential reveal, with the complete static graphic and data table available.
+- **Anti-pattern:** invented patterns presented as measured observations or decorative axes without units.
+- **QA:** validate source, mapping, scale, labels, uncertainty, color-independent distinctions and alt text.
+- **Brief example:** city mobility story with a cited dataset and accessible summary table.
+
+## 15. Biomorphic sculpture
+- **Decision and use:** nature-inspired identity, product editorial or cultural campaign; avoid implying artificial objects are real products.
+- **Composition:** two or three rounded asymmetric volumes with one dominant silhouette and open space for copy.
+- **Color:** moss `#536C4D`, cream `#F1EBDD`, clay `#A65F49`; test text contrast.
+- **Typography:** clear humanist sans for body and a restrained display serif.
+- **Imagery:** original sculptural render or authorized photograph; disclose synthetic material where relevant.
+- **Motion:** optional slow shape transition; preserve a static version.
+- **Anti-pattern:** claiming a generated object is physically manufactured, sustainable or an actual material sample.
+- **QA:** verify image provenance, silhouette at small size, legibility, contrast and any environmental claims.
+- **Brief example:** a fictional design exhibition poster with a labelled synthetic sculptural study.
+
+## 16. Monochrome architecture
+- **Decision and use:** high-contrast cultural editorial or architecture story; avoid when color is necessary to differentiate critical states.
+- **Composition:** architectural light and shadow intersect a disciplined modular grid with a distinct information plane.
+- **Color:** black `#111111`, white `#FAFAF7`, mid-gray `#777777`; check each text pair.
+- **Typography:** licensed grotesk display face with a readable sans and required glyphs.
+- **Imagery:** authorized architecture photographs or clearly identified synthetic architectural abstractions.
+- **Motion:** optional short reveal of a shadow; maintain equivalent static content.
+- **Anti-pattern:** low-contrast gray copy or using a synthetic building as evidence of a real location.
+- **QA:** check actual text contrast, crop, rights, readability, and non-color state indicators.
+- **Brief example:** a monochrome architecture journal cover with a separate legible title block.

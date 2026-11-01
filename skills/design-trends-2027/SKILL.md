@@ -9,7 +9,7 @@ description: Use when creating 2027 design trend concepts.
 
 # Design directions: selection and application
 
-Answer in the user's language (Polish or English, including Polish briefs); preserve their terminology. These are creative hypotheses, not measured 2027 trends or a ranking. Directions 1–7 interpret the supplied video; 8–10 are independent editorial additions based on separate sources. Do not present the video's opinions as established facts.
+Answer in the user's language (Polish or English, including Polish briefs); preserve their terminology. These are creative hypotheses, not measured 2027 trends or a ranking. Directions 1–7 interpret the supplied video; 8–16 are independent editorial additions based on separate sources. Do not present the video's opinions as established facts.
 
 ## Pre-flight and selection
 
@@ -19,7 +19,7 @@ Before producing work, check the requested format and dimensions, audience, copy
 
 1. Identify medium, objective, audience, brand tone, essential message/CTA, available licensed assets, constraints and output. If a missing detail blocks a consequential decision, ask; otherwise state a reasonable assumption and proceed.
 2. Use the table to shortlist. Choose **one lead and zero to two supporting directions**; explain fit, one trade-off and why the most tempting alternative is less suitable. An explicit user choice wins unless it conflicts with accessibility or another hard constraint; explain and adapt. If none fits, say so rather than force one.
-3. Read only the chosen entries in [application recipes](references/application-recipes.md). For implementation and origin of 1–7 consult [video directions](references/video-directions.md); for 8–10 consult [additional directions](references/additional-directions.md). Load [sources and limits](references/sources.md) only when attribution or evidence matters.
+3. Read only the chosen entries in [application recipes](references/application-recipes.md). For implementation and origin of 1–7 consult [video directions](references/video-directions.md); for 8–10 consult [additional directions](references/additional-directions.md); for 11–16 use the recipes and sources. Load [sources and limits](references/sources.md) only when attribution or evidence matters.
 4. Translate the recipe into a deliverable-specific art direction: hierarchy and grid; palette with foreground/background roles; type and glyph coverage; real or synthetic imagery; motion and fallback; production and rights. Preserve existing brand rules. Provide concrete decisions, not just adjectives. For a website implement semantic interactive controls; for a graphic keep text editable and export to the requested dimensions; for a brand define reusable rules and variants. Actually create the requested artifact if tools and inputs permit.
 5. Evaluate against the recipe's QA and the shared gate below. State what was tested versus proposed or unavailable. Do not invent performance results, source history, real photographs, approvals or handmade provenance.
 
@@ -35,6 +35,13 @@ Before producing work, check the requested format and dimensions, audience, copy
 | 8 Dynamic materials | layers clarify floating controls | dense copy or variable backgrounds undermine contrast |
 | 9 Expressive geometry | reusable brand shapes differentiate interface | recognisable conventional controls are paramount |
 | 10 Purposeful motion | orientation, feedback or sequence needs motion | static output or motion cannot add meaning |
+
+| 11 Playful retro computing | editorial technology stories or cultural events | real controls must never be confused with decoration |
+| 12 Quiet editorial | calm reading and contemplative stories | energetic visual spectacle is the objective |
+| 13 Ornamental maximalism | expressive cultural, hospitality or product storytelling | dense functional information needs immediate scanning |
+| 14 Data poetry | editorial storytelling with verifiable data | decorative marks could be mistaken for evidence |
+| 15 Biomorphic sculpture | tactile identities and nature-inspired concepts | realistic product or material claims must be substantiated |
+| 16 Monochrome architecture | bold editorial hierarchy and structural imagery | color carries essential information without alternatives |
 
 ## Missing resources and shared QA
 
