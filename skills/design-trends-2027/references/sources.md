@@ -45,3 +45,14 @@ These historical examples establish design precedents, not evidence of 2027 adop
 - [Omoro, Claymorphism brief](https://www.omoro.io/photography/clay-style) — rounded matte forms and diffused light as practical references for direction 20.
 
 These explain techniques and precedents, not measured 2027 adoption, popularity or efficacy.
+
+
+## Directions 21–30: research and editorial extrapolation
+
+- [Julia Tovmasyan, Picsart, 2026 design trends](https://picsart.com/blog/design-trends-2026/) describes X-ray flowers and cyanotype-like blue treatments; informs 21 and 23.
+- [Creative Market, Next in Design 2026](https://www.creativemarket.com/trends/) discusses woven texture and embossed materials; informs 24 and 25.
+- [Je Ann Bacalso, Penji, graphic design trends 2026](https://penji.co/graphic-design-trend/) discusses technical blueprints and glitched portraits; informs 26 and 29.
+- [Anand S, LLM Filter Gallery](https://sanand0.github.io/image-filters/) provides examples of simulated infrared, stained glass, holographic foil, cyanotype and solarization; informs 23, 25, 27, 28 and 30. The gallery is an experiment, not an adoption survey.
+- Direction 22 is our editorial extrapolation from layered material practice rather than a claimed sourced trend; the other directions are creative interpretations, not reproductions.
+
+These sources document precedents or editorial opinions, not proven market popularity. Their extension to 2027 is a forecast/hypothesis. Synthetic images do not establish physical techniques, scientific accuracy, or product characteristics.

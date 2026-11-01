@@ -1,6 +1,6 @@
 # Design Trends 2027
 
-**AI Evolution Polska przedstawia katalog 20 kierunków wizualnych dla projektantów i agentów AI.**
+**AI Evolution Polska przedstawia katalog 30 kierunków wizualnych dla projektantów i agentów AI.**
 
 Rok 2027 to horyzont twórczych prognoz i hipotez, nie potwierdzony ranking, pomiar popularności ani gwarancja skuteczności. Każdy kierunek można dostosować do medium, odbiorcy i marki. Wizualizacje są syntetycznymi interpretacjami, a nie dowodem rzeczywistych materiałów ani popularności.
 
@@ -251,3 +251,123 @@ Wybierz kierunek główny, najwyżej dwa uzupełniające, a następnie otwórz j
 **Materiały:** glina lub render glinopodobny, rozproszone światło i miękkie cienie. **Unikać:** nie myl syntetycznej faktury z prawdziwą gliną i nie używaj niskiego kontrastu.
 
 [Instrukcja i prompt do skopiowania →](skills/design-trends-2027/references/application-recipes.md#styl-20)
+
+### 21. Botanical X-ray
+
+![Syntetyczna interpretacja stylu Botanical X-ray](assets/style-21.png)
+
+**Podstawy:** półprzezroczysty motyw roślinny z widocznym unerwieniem. **Kiedy używać:** redakcja naukowa i koncepty beauty.
+
+**Kompozycja:** jeden obiekt na ciemnym pustym tle. **Kolor:** granat i chłodna biel. **Typografia:** precyzyjny prosty sans.
+
+**Materiały:** syntetyczna radiografia lub autoryzowany rzeczywisty skan. **Unikać:** nie przedstawiaj ilustracji jako badania ani dowodu medycznego. Prześwietlenie tworzy wrażenie wewnętrznej struktury; nie jest zapisem naukowym.
+
+[Instrukcja i prompt do skopiowania →](skills/design-trends-2027/references/application-recipes.md#styl-21)
+
+### 22. Topographic Paper Relief
+
+![Syntetyczna interpretacja stylu Topographic Paper Relief](assets/style-22.png)
+
+**Podstawy:** warstwowe wycinane kontury o przestrzennych krawędziach. **Kiedy używać:** opakowania outdoor i okładki.
+
+**Kompozycja:** warstwice jako centralny relief i spokojny margines. **Kolor:** indygo i pomarańcz. **Typografia:** mocny sans i proste podpisy.
+
+**Materiały:** papierowy model lub oznaczony render. **Unikać:** nie przedstawiaj dekoracyjnych warstwic jako mapy terenu. Rytm warstw i cienie budują topografię, nie rzeczywiste dane.
+
+[Instrukcja i prompt do skopiowania →](skills/design-trends-2027/references/application-recipes.md#styl-22)
+
+### 23. Cyanotype Specimens
+
+![Syntetyczna interpretacja stylu Cyanotype Specimens](assets/style-23.png)
+
+**Podstawy:** białe sylwetki roślin na błękicie pruskim. **Kiedy używać:** wydawnictwa botaniczne i opakowania.
+
+**Kompozycja:** jedna sylweta na równym polu z miejscem na tekst. **Kolor:** błękit pruski i złamana biel. **Typografia:** oszczędny szeryf i czytelny sans.
+
+**Materiały:** rzeczywista cyjanotypia lub jawna symulacja. **Unikać:** nie nazywaj symulacji ręcznie wykonanym odbitkiem. Od 21 różni się nieprzezroczystym fotogramem na papierze zamiast rentgenowskiej przezroczystości.
+
+[Instrukcja i prompt do skopiowania →](skills/design-trends-2027/references/application-recipes.md#styl-23)
+
+### 24. Jacquard Optics
+
+![Syntetyczna interpretacja stylu Jacquard Optics](assets/style-24.png)
+
+**Podstawy:** geometryczny wzór z czytelnym przeplotem osnowy i wątku. **Kiedy używać:** moda i wnętrza.
+
+**Kompozycja:** duży wzór i wydzielona strefa informacji. **Kolor:** kobalt i limonka. **Typografia:** zwarty sans w kontrze do tekstury.
+
+**Materiały:** oryginalna tkanina żakardowa lub syntetyczna symulacja. **Unikać:** nie obiecuj faktury fizycznej ani nie gub tekstu w splocie. Wzór powstaje z przeplotu włókien, a nie dekoracyjnego rysunku.
+
+[Instrukcja i prompt do skopiowania →](skills/design-trends-2027/references/application-recipes.md#styl-24)
+
+### 25. Prismatic Foil Emboss
+
+![Syntetyczna interpretacja stylu Prismatic Foil Emboss](assets/style-25.png)
+
+**Podstawy:** wytłoczona folia z kierunkowym spektralnym połyskiem. **Kiedy używać:** limitowane edycje i opakowania.
+
+**Kompozycja:** jeden akcent foliowy na matowym polu. **Kolor:** czarny i widmowe refleksy. **Typografia:** stonowany krój premium i czytelne dane.
+
+**Materiały:** próbka folii lub jawny render materiału. **Unikać:** nie gwarantuj identycznego efektu w druku bez próby. W przeciwieństwie do 08 nacisk pada na nieprzezroczystą metaliczną folię.
+
+[Instrukcja i prompt do skopiowania →](skills/design-trends-2027/references/application-recipes.md#styl-25)
+
+### 26. Exploded Blueprint
+
+![Syntetyczna interpretacja stylu Exploded Blueprint](assets/style-26.png)
+
+**Podstawy:** rozstrzelony schemat części z liniami konstrukcyjnymi. **Kiedy używać:** produkty techniczne i instrukcje koncepcyjne.
+
+**Kompozycja:** części wzdłuż osi i oddzielna legenda. **Kolor:** kobalt i biel. **Typografia:** techniczny sans z czytelnymi podpisami.
+
+**Materiały:** zweryfikowany rysunek techniczny lub oznaczony koncept. **Unikać:** nie używaj fikcyjnych części jako instrukcji serwisowej. Rysunek wyjaśnia relacje części, nie stanowi dekoracyjnej wizualizacji danych 14.
+
+[Instrukcja i prompt do skopiowania →](skills/design-trends-2027/references/application-recipes.md#styl-26)
+
+### 27. False-Colour Infrared
+
+![Syntetyczna interpretacja stylu False-Colour Infrared](assets/style-27.png)
+
+**Podstawy:** fałszywe kolory roślinności i tonalna fotografia krajobrazu. **Kiedy używać:** editorial i okładki muzyczne.
+
+**Kompozycja:** jeden spokojny krajobraz z wyraźnym horyzontem. **Kolor:** róż roślinności i ciemny turkus. **Typografia:** neutralny sans bez efektów.
+
+**Materiały:** licencjonowane zdjęcie IR lub syntetyczna interpretacja. **Unikać:** nie opisuj obrazu jako pomiaru temperatury. Obraz interpretuje podczerwień, nie jest rzeczywistym pomiarem.
+
+[Instrukcja i prompt do skopiowania →](skills/design-trends-2027/references/application-recipes.md#styl-27)
+
+### 28. Modern Stained Glass
+
+![Syntetyczna interpretacja stylu Modern Stained Glass](assets/style-28.png)
+
+**Podstawy:** kolorowe płaszczyzny szkła oddzielone ciemnymi szprosami. **Kiedy używać:** plakaty kulturalne i grafiki przestrzeni.
+
+**Kompozycja:** kilka dużych pól z wyraźnym rytmem łączeń. **Kolor:** rubin i ultramaryna. **Typografia:** prosty krój kontrastujący z geometrią.
+
+**Materiały:** autorskie szkło lub oznaczona cyfrowa interpretacja. **Unikać:** nie kopiuj rozpoznawalnego zabytkowego wzoru. Od 08 różni się segmentacją nieprzezroczystymi łączeniami i światłem od tyłu.
+
+[Instrukcja i prompt do skopiowania →](skills/design-trends-2027/references/application-recipes.md#styl-28)
+
+### 29. Pixel-Sorted Portrait
+
+![Syntetyczna interpretacja stylu Pixel-Sorted Portrait](assets/style-29.png)
+
+**Podstawy:** portret z kontrolowanym cyfrowym rozciągnięciem pikseli. **Kiedy używać:** muzyka i kampanie artystyczne.
+
+**Kompozycja:** rozpoznawalna twarz z efektem w wybranej strefie. **Kolor:** czerń oraz kontrolowane rozdzielenie RGB. **Typografia:** czytelna typografia poza deformacją.
+
+**Materiały:** autoryzowany portret lub fikcyjny syntetyczny model. **Unikać:** nie deformuj informacji ani twarzy osoby bez zgody. Efekt dotyczy cyfrowego rozpadu obrazu, a nie nostalgicznego interfejsu 11.
+
+[Instrukcja i prompt do skopiowania →](skills/design-trends-2027/references/application-recipes.md#styl-29)
+
+### 30. Solarized Duotone
+
+![Syntetyczna interpretacja stylu Solarized Duotone](assets/style-30.png)
+
+**Podstawy:** fotograficzna solaryzacja i tonalne odwrócenie krawędzi. **Kiedy używać:** okładki i beauty editorial.
+
+**Kompozycja:** jeden przedmiot z kontrastową obwódką. **Kolor:** kwasowy żółty i fiolet. **Typografia:** spokojny sans, informacja poza obrazem.
+
+**Materiały:** oryginalna fotografia lub wyraźnie oznaczony render. **Unikać:** nie przedstawiaj kolorów produktu jako wiernych. To transformacja tonalna fotografii, a nie raster i separacje riso 18.
+
+[Instrukcja i prompt do skopiowania →](skills/design-trends-2027/references/application-recipes.md#styl-30)

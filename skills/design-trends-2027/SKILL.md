@@ -9,7 +9,7 @@ description: Use when creating 2027 design trend concepts.
 
 # Design directions: selection and application
 
-Answer in the user's language (Polish or English, including Polish briefs); preserve their terminology. These are creative hypotheses, not measured 2027 trends or a ranking. Directions 1–7 interpret the supplied video; 8–20 are independent editorial additions based on separate sources. Do not present the video's opinions as established facts.
+Answer in the user's language (Polish or English, including Polish briefs); preserve their terminology. These are creative hypotheses, not measured 2027 trends or a ranking. Directions 1–7 interpret the supplied video; 8–30 are independent editorial additions based on separate sources. Do not present the video's opinions as established facts.
 
 ## Pre-flight and selection
 
@@ -19,7 +19,7 @@ Before producing work, check the requested format and dimensions, audience, copy
 
 1. Identify medium, objective, audience, brand tone, essential message/CTA, available licensed assets, constraints and output. If a missing detail blocks a consequential decision, ask; otherwise state a reasonable assumption and proceed.
 2. Use the table to shortlist. Choose **one lead and zero to two supporting directions**; explain fit, one trade-off and why the most tempting alternative is less suitable. An explicit user choice wins unless it conflicts with accessibility or another hard constraint; explain and adapt. If none fits, say so rather than force one.
-3. Read only the chosen entries in [application recipes](references/application-recipes.md). For implementation and origin of 1–7 consult [video directions](references/video-directions.md); for 8–10 consult [additional directions](references/additional-directions.md); for 11–20 use the recipes and sources. Load [sources and limits](references/sources.md) only when attribution or evidence matters.
+3. Read only the chosen entries in [application recipes](references/application-recipes.md). For implementation and origin of 1–7 consult [video directions](references/video-directions.md); for 8–10 consult [additional directions](references/additional-directions.md); for 11–30 use the recipes and sources. Load [sources and limits](references/sources.md) only when attribution or evidence matters.
 4. Copy the selected Polish agent prompt from the recipe, fill its bracketed brief fields, and adapt its instructions to the user’s language and requested artifact; do not treat it as an image-generation prompt by default. Translate the recipe into a deliverable-specific art direction: hierarchy and grid; palette with foreground/background roles; type and glyph coverage; real or synthetic imagery; motion and fallback; production and rights. Preserve existing brand rules. Provide concrete decisions, not just adjectives. For a website implement semantic interactive controls; for a graphic keep text editable and export to the requested dimensions; for a brand define reusable rules and variants. Actually create the requested artifact if tools and inputs permit.
 5. Evaluate against the recipe's QA and the shared gate below. State what was tested versus proposed or unavailable. Do not invent performance results, source history, real photographs, approvals or handmade provenance.
 
@@ -47,6 +47,17 @@ Before producing work, check the requested format and dimensions, audience, copy
 | 18 Risograph Layers | print-inspired culture and posters | small multi-ink type or uncontrolled registration |
 | 19 Cinematic Light & Shadow | focused premium storytelling | product details disappear in shadow |
 | 20 Soft 3D / Clay | approachable playful illustrations | synthetic material could be mistaken for real |
+
+| 21 Botanical X-ray | redakcja naukowa i koncepty beauty | nie przedstawiaj ilustracji jako badania ani dowodu medycznego |
+| 22 Topographic Paper Relief | opakowania outdoor i okładki | nie przedstawiaj dekoracyjnych warstwic jako mapy terenu |
+| 23 Cyanotype Specimens | wydawnictwa botaniczne i opakowania | nie nazywaj symulacji ręcznie wykonanym odbitkiem |
+| 24 Jacquard Optics | moda i wnętrza | nie obiecuj faktury fizycznej ani nie gub tekstu w splocie |
+| 25 Prismatic Foil Emboss | limitowane edycje i opakowania | nie gwarantuj identycznego efektu w druku bez próby |
+| 26 Exploded Blueprint | produkty techniczne i instrukcje koncepcyjne | nie używaj fikcyjnych części jako instrukcji serwisowej |
+| 27 False-Colour Infrared | editorial i okładki muzyczne | nie opisuj obrazu jako pomiaru temperatury |
+| 28 Modern Stained Glass | plakaty kulturalne i grafiki przestrzeni | nie kopiuj rozpoznawalnego zabytkowego wzoru |
+| 29 Pixel-Sorted Portrait | muzyka i kampanie artystyczne | nie deformuj informacji ani twarzy osoby bez zgody |
+| 30 Solarized Duotone | okładki i beauty editorial | nie przedstawiaj kolorów produktu jako wiernych |
 
 ## Missing resources and shared QA
 

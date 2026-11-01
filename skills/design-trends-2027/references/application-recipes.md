@@ -224,6 +224,116 @@ Read the selected numbered entry only. Colors below are starting palettes, not c
 - **QA:** check rights, truthful provenance, contrast, hierarchy and actual-size readability; test interactions when applicable.
 - **Brief example:** dobierz format i odbiorcę do celu oraz zasad marki.
 
+## 21. Botanical X-ray
+- **Decision and use:** redakcja naukowa i koncepty beauty; Prześwietlenie tworzy wrażenie wewnętrznej struktury; nie jest zapisem naukowym.
+- **Composition:** jeden obiekt na ciemnym pustym tle; reserve an uncluttered information area.
+- **Color:** granat i chłodna biel; test actual contrast.
+- **Typography:** precyzyjny prosty sans; verify glyphs and licensing.
+- **Imagery:** syntetyczna radiografia lub autoryzowany rzeczywisty skan; clearly label synthetic material.
+- **Motion:** optional restrained reveal; provide an equivalent static state and reduced motion.
+- **Anti-pattern:** nie przedstawiaj ilustracji jako badania ani dowodu medycznego.
+- **QA:** inspect provenance, rights, actual-size legibility, medium and fidelity to the brief.
+- **Brief example:** editorial concept for redakcja naukowa i koncepty beauty.
+
+## 22. Topographic Paper Relief
+- **Decision and use:** opakowania outdoor i okładki; Rytm warstw i cienie budują topografię, nie rzeczywiste dane.
+- **Composition:** warstwice jako centralny relief i spokojny margines; reserve an uncluttered information area.
+- **Color:** indygo i pomarańcz; test actual contrast.
+- **Typography:** mocny sans i proste podpisy; verify glyphs and licensing.
+- **Imagery:** papierowy model lub oznaczony render; clearly label synthetic material.
+- **Motion:** optional restrained reveal; provide an equivalent static state and reduced motion.
+- **Anti-pattern:** nie przedstawiaj dekoracyjnych warstwic jako mapy terenu.
+- **QA:** inspect provenance, rights, actual-size legibility, medium and fidelity to the brief.
+- **Brief example:** editorial concept for opakowania outdoor i okładki.
+
+## 23. Cyanotype Specimens
+- **Decision and use:** wydawnictwa botaniczne i opakowania; Od 21 różni się nieprzezroczystym fotogramem na papierze zamiast rentgenowskiej przezroczystości.
+- **Composition:** jedna sylweta na równym polu z miejscem na tekst; reserve an uncluttered information area.
+- **Color:** błękit pruski i złamana biel; test actual contrast.
+- **Typography:** oszczędny szeryf i czytelny sans; verify glyphs and licensing.
+- **Imagery:** rzeczywista cyjanotypia lub jawna symulacja; clearly label synthetic material.
+- **Motion:** optional restrained reveal; provide an equivalent static state and reduced motion.
+- **Anti-pattern:** nie nazywaj symulacji ręcznie wykonanym odbitkiem.
+- **QA:** inspect provenance, rights, actual-size legibility, medium and fidelity to the brief.
+- **Brief example:** editorial concept for wydawnictwa botaniczne i opakowania.
+
+## 24. Jacquard Optics
+- **Decision and use:** moda i wnętrza; Wzór powstaje z przeplotu włókien, a nie dekoracyjnego rysunku.
+- **Composition:** duży wzór i wydzielona strefa informacji; reserve an uncluttered information area.
+- **Color:** kobalt i limonka; test actual contrast.
+- **Typography:** zwarty sans w kontrze do tekstury; verify glyphs and licensing.
+- **Imagery:** oryginalna tkanina żakardowa lub syntetyczna symulacja; clearly label synthetic material.
+- **Motion:** optional restrained reveal; provide an equivalent static state and reduced motion.
+- **Anti-pattern:** nie obiecuj faktury fizycznej ani nie gub tekstu w splocie.
+- **QA:** inspect provenance, rights, actual-size legibility, medium and fidelity to the brief.
+- **Brief example:** editorial concept for moda i wnętrza.
+
+## 25. Prismatic Foil Emboss
+- **Decision and use:** limitowane edycje i opakowania; W przeciwieństwie do 08 nacisk pada na nieprzezroczystą metaliczną folię.
+- **Composition:** jeden akcent foliowy na matowym polu; reserve an uncluttered information area.
+- **Color:** czarny i widmowe refleksy; test actual contrast.
+- **Typography:** stonowany krój premium i czytelne dane; verify glyphs and licensing.
+- **Imagery:** próbka folii lub jawny render materiału; clearly label synthetic material.
+- **Motion:** optional restrained reveal; provide an equivalent static state and reduced motion.
+- **Anti-pattern:** nie gwarantuj identycznego efektu w druku bez próby.
+- **QA:** inspect provenance, rights, actual-size legibility, medium and fidelity to the brief.
+- **Brief example:** editorial concept for limitowane edycje i opakowania.
+
+## 26. Exploded Blueprint
+- **Decision and use:** produkty techniczne i instrukcje koncepcyjne; Rysunek wyjaśnia relacje części, nie stanowi dekoracyjnej wizualizacji danych 14.
+- **Composition:** części wzdłuż osi i oddzielna legenda; reserve an uncluttered information area.
+- **Color:** kobalt i biel; test actual contrast.
+- **Typography:** techniczny sans z czytelnymi podpisami; verify glyphs and licensing.
+- **Imagery:** zweryfikowany rysunek techniczny lub oznaczony koncept; clearly label synthetic material.
+- **Motion:** optional restrained reveal; provide an equivalent static state and reduced motion.
+- **Anti-pattern:** nie używaj fikcyjnych części jako instrukcji serwisowej.
+- **QA:** inspect provenance, rights, actual-size legibility, medium and fidelity to the brief.
+- **Brief example:** editorial concept for produkty techniczne i instrukcje koncepcyjne.
+
+## 27. False-Colour Infrared
+- **Decision and use:** editorial i okładki muzyczne; Obraz interpretuje podczerwień, nie jest rzeczywistym pomiarem.
+- **Composition:** jeden spokojny krajobraz z wyraźnym horyzontem; reserve an uncluttered information area.
+- **Color:** róż roślinności i ciemny turkus; test actual contrast.
+- **Typography:** neutralny sans bez efektów; verify glyphs and licensing.
+- **Imagery:** licencjonowane zdjęcie IR lub syntetyczna interpretacja; clearly label synthetic material.
+- **Motion:** optional restrained reveal; provide an equivalent static state and reduced motion.
+- **Anti-pattern:** nie opisuj obrazu jako pomiaru temperatury.
+- **QA:** inspect provenance, rights, actual-size legibility, medium and fidelity to the brief.
+- **Brief example:** editorial concept for editorial i okładki muzyczne.
+
+## 28. Modern Stained Glass
+- **Decision and use:** plakaty kulturalne i grafiki przestrzeni; Od 08 różni się segmentacją nieprzezroczystymi łączeniami i światłem od tyłu.
+- **Composition:** kilka dużych pól z wyraźnym rytmem łączeń; reserve an uncluttered information area.
+- **Color:** rubin i ultramaryna; test actual contrast.
+- **Typography:** prosty krój kontrastujący z geometrią; verify glyphs and licensing.
+- **Imagery:** autorskie szkło lub oznaczona cyfrowa interpretacja; clearly label synthetic material.
+- **Motion:** optional restrained reveal; provide an equivalent static state and reduced motion.
+- **Anti-pattern:** nie kopiuj rozpoznawalnego zabytkowego wzoru.
+- **QA:** inspect provenance, rights, actual-size legibility, medium and fidelity to the brief.
+- **Brief example:** editorial concept for plakaty kulturalne i grafiki przestrzeni.
+
+## 29. Pixel-Sorted Portrait
+- **Decision and use:** muzyka i kampanie artystyczne; Efekt dotyczy cyfrowego rozpadu obrazu, a nie nostalgicznego interfejsu 11.
+- **Composition:** rozpoznawalna twarz z efektem w wybranej strefie; reserve an uncluttered information area.
+- **Color:** czerń oraz kontrolowane rozdzielenie RGB; test actual contrast.
+- **Typography:** czytelna typografia poza deformacją; verify glyphs and licensing.
+- **Imagery:** autoryzowany portret lub fikcyjny syntetyczny model; clearly label synthetic material.
+- **Motion:** optional restrained reveal; provide an equivalent static state and reduced motion.
+- **Anti-pattern:** nie deformuj informacji ani twarzy osoby bez zgody.
+- **QA:** inspect provenance, rights, actual-size legibility, medium and fidelity to the brief.
+- **Brief example:** editorial concept for muzyka i kampanie artystyczne.
+
+## 30. Solarized Duotone
+- **Decision and use:** okładki i beauty editorial; To transformacja tonalna fotografii, a nie raster i separacje riso 18.
+- **Composition:** jeden przedmiot z kontrastową obwódką; reserve an uncluttered information area.
+- **Color:** kwasowy żółty i fiolet; test actual contrast.
+- **Typography:** spokojny sans, informacja poza obrazem; verify glyphs and licensing.
+- **Imagery:** oryginalna fotografia lub wyraźnie oznaczony render; clearly label synthetic material.
+- **Motion:** optional restrained reveal; provide an equivalent static state and reduced motion.
+- **Anti-pattern:** nie przedstawiaj kolorów produktu jako wiernych.
+- **QA:** inspect provenance, rights, actual-size legibility, medium and fidelity to the brief.
+- **Brief example:** editorial concept for okładki i beauty editorial.
+
 ## Instrukcje i gotowe prompty po polsku
 
 Uzupełnij pola w nawiasach kwadratowych. Prompt jest instrukcją dla agenta projektowego, a nie obietnicą gotowego obrazu.
@@ -686,4 +796,225 @@ Jesteś agentem projektowym. Przygotuj [FORMAT] dla [MARKA] do [CEL] dla [ODBIOR
 
 ```text
 Jesteś agentem projektowym. Przygotuj [FORMAT] dla [MARKA] do [CEL] dla [ODBIORCY] w stylu Soft 3D / Clay. Zbuduj kompozycję: jeden duży obiekt, kilka prostych elementów i wolna przestrzeń; zastosuj stonowane pastele i ciemny kolor tekstu; typografia: przyjazny display oraz czytelny sans. Materiały: glina lub render glinopodobny, rozproszone światło i miękkie cienie. Umieść [TREŚĆ] i [CTA] w czytelnej hierarchii, zachowaj zasady marki oraz wymagane wymiary. Używaj wyłącznie autoryzowanych zasobów, oznacz syntetyczne materiały, sprawdź kontrast, polskie znaki i czytelność w docelowym rozmiarze. Unikaj: nie myl syntetycznej faktury z prawdziwą gliną i nie używaj niskiego kontrastu. Dostarcz edytowalny projekt i eksport oraz wypisz rzeczywiście wykonane kontrole i ograniczenia.
+```
+
+
+<a id="styl-21"></a>
+### 21. Botanical X-ray — instrukcja i prompt PL
+
+**Podstawy stylu:** półprzezroczysty motyw roślinny z widocznym unerwieniem. Prześwietlenie tworzy wrażenie wewnętrznej struktury; nie jest zapisem naukowym.
+
+**Kiedy używać:** redakcja naukowa i koncepty beauty.
+
+**Kompozycja:** jeden obiekt na ciemnym pustym tle.
+
+**Kolor:** granat i chłodna biel; sprawdź kontrast faktycznych zestawień.
+
+**Typografia:** precyzyjny prosty sans; sprawdź polskie znaki i licencję.
+
+**Materiały:** syntetyczna radiografia lub autoryzowany rzeczywisty skan.
+
+**Unikać:** nie przedstawiaj ilustracji jako badania ani dowodu medycznego.
+
+**Prompt dla agenta:**
+```text
+Zaprojektuj [FORMAT] dla [MARKA], aby osiągnąć [CEL] wśród [ODBIORCY]. Wykorzystaj kierunek Botanical X-ray: półprzezroczysty motyw roślinny z widocznym unerwieniem; zastosuj kompozycję: jeden obiekt na ciemnym pustym tle, paletę: granat i chłodna biel oraz typografię: precyzyjny prosty sans. Uwzględnij [TREŚĆ] i [CTA], zachowując czytelny obszar informacji. Materiały: syntetyczna radiografia lub autoryzowany rzeczywisty skan; nie przedstawiaj ilustracji jako badania ani dowodu medycznego. Przygotuj rzeczywisty rezultat w wymaganym formacie, sprawdź prawa, polskie znaki, czytelność i kontrast w docelowym rozmiarze oraz oznacz elementy syntetyczne. Jeśli potrzebny jest ruch, zapewnij wersję statyczną. W raporcie odróżnij testy wykonane od niewykonanych.
+```
+
+<a id="styl-22"></a>
+### 22. Topographic Paper Relief — instrukcja i prompt PL
+
+**Podstawy stylu:** warstwowe wycinane kontury o przestrzennych krawędziach. Rytm warstw i cienie budują topografię, nie rzeczywiste dane.
+
+**Kiedy używać:** opakowania outdoor i okładki.
+
+**Kompozycja:** warstwice jako centralny relief i spokojny margines.
+
+**Kolor:** indygo i pomarańcz; sprawdź kontrast faktycznych zestawień.
+
+**Typografia:** mocny sans i proste podpisy; sprawdź polskie znaki i licencję.
+
+**Materiały:** papierowy model lub oznaczony render.
+
+**Unikać:** nie przedstawiaj dekoracyjnych warstwic jako mapy terenu.
+
+**Prompt dla agenta:**
+```text
+Zaprojektuj [FORMAT] dla [MARKA], aby osiągnąć [CEL] wśród [ODBIORCY]. Wykorzystaj kierunek Topographic Paper Relief: warstwowe wycinane kontury o przestrzennych krawędziach; zastosuj kompozycję: warstwice jako centralny relief i spokojny margines, paletę: indygo i pomarańcz oraz typografię: mocny sans i proste podpisy. Uwzględnij [TREŚĆ] i [CTA], zachowując czytelny obszar informacji. Materiały: papierowy model lub oznaczony render; nie przedstawiaj dekoracyjnych warstwic jako mapy terenu. Przygotuj rzeczywisty rezultat w wymaganym formacie, sprawdź prawa, polskie znaki, czytelność i kontrast w docelowym rozmiarze oraz oznacz elementy syntetyczne. Jeśli potrzebny jest ruch, zapewnij wersję statyczną. W raporcie odróżnij testy wykonane od niewykonanych.
+```
+
+<a id="styl-23"></a>
+### 23. Cyanotype Specimens — instrukcja i prompt PL
+
+**Podstawy stylu:** białe sylwetki roślin na błękicie pruskim. Od 21 różni się nieprzezroczystym fotogramem na papierze zamiast rentgenowskiej przezroczystości.
+
+**Kiedy używać:** wydawnictwa botaniczne i opakowania.
+
+**Kompozycja:** jedna sylweta na równym polu z miejscem na tekst.
+
+**Kolor:** błękit pruski i złamana biel; sprawdź kontrast faktycznych zestawień.
+
+**Typografia:** oszczędny szeryf i czytelny sans; sprawdź polskie znaki i licencję.
+
+**Materiały:** rzeczywista cyjanotypia lub jawna symulacja.
+
+**Unikać:** nie nazywaj symulacji ręcznie wykonanym odbitkiem.
+
+**Prompt dla agenta:**
+```text
+Zaprojektuj [FORMAT] dla [MARKA], aby osiągnąć [CEL] wśród [ODBIORCY]. Wykorzystaj kierunek Cyanotype Specimens: białe sylwetki roślin na błękicie pruskim; zastosuj kompozycję: jedna sylweta na równym polu z miejscem na tekst, paletę: błękit pruski i złamana biel oraz typografię: oszczędny szeryf i czytelny sans. Uwzględnij [TREŚĆ] i [CTA], zachowując czytelny obszar informacji. Materiały: rzeczywista cyjanotypia lub jawna symulacja; nie nazywaj symulacji ręcznie wykonanym odbitkiem. Przygotuj rzeczywisty rezultat w wymaganym formacie, sprawdź prawa, polskie znaki, czytelność i kontrast w docelowym rozmiarze oraz oznacz elementy syntetyczne. Jeśli potrzebny jest ruch, zapewnij wersję statyczną. W raporcie odróżnij testy wykonane od niewykonanych.
+```
+
+<a id="styl-24"></a>
+### 24. Jacquard Optics — instrukcja i prompt PL
+
+**Podstawy stylu:** geometryczny wzór z czytelnym przeplotem osnowy i wątku. Wzór powstaje z przeplotu włókien, a nie dekoracyjnego rysunku.
+
+**Kiedy używać:** moda i wnętrza.
+
+**Kompozycja:** duży wzór i wydzielona strefa informacji.
+
+**Kolor:** kobalt i limonka; sprawdź kontrast faktycznych zestawień.
+
+**Typografia:** zwarty sans w kontrze do tekstury; sprawdź polskie znaki i licencję.
+
+**Materiały:** oryginalna tkanina żakardowa lub syntetyczna symulacja.
+
+**Unikać:** nie obiecuj faktury fizycznej ani nie gub tekstu w splocie.
+
+**Prompt dla agenta:**
+```text
+Zaprojektuj [FORMAT] dla [MARKA], aby osiągnąć [CEL] wśród [ODBIORCY]. Wykorzystaj kierunek Jacquard Optics: geometryczny wzór z czytelnym przeplotem osnowy i wątku; zastosuj kompozycję: duży wzór i wydzielona strefa informacji, paletę: kobalt i limonka oraz typografię: zwarty sans w kontrze do tekstury. Uwzględnij [TREŚĆ] i [CTA], zachowując czytelny obszar informacji. Materiały: oryginalna tkanina żakardowa lub syntetyczna symulacja; nie obiecuj faktury fizycznej ani nie gub tekstu w splocie. Przygotuj rzeczywisty rezultat w wymaganym formacie, sprawdź prawa, polskie znaki, czytelność i kontrast w docelowym rozmiarze oraz oznacz elementy syntetyczne. Jeśli potrzebny jest ruch, zapewnij wersję statyczną. W raporcie odróżnij testy wykonane od niewykonanych.
+```
+
+<a id="styl-25"></a>
+### 25. Prismatic Foil Emboss — instrukcja i prompt PL
+
+**Podstawy stylu:** wytłoczona folia z kierunkowym spektralnym połyskiem. W przeciwieństwie do 08 nacisk pada na nieprzezroczystą metaliczną folię.
+
+**Kiedy używać:** limitowane edycje i opakowania.
+
+**Kompozycja:** jeden akcent foliowy na matowym polu.
+
+**Kolor:** czarny i widmowe refleksy; sprawdź kontrast faktycznych zestawień.
+
+**Typografia:** stonowany krój premium i czytelne dane; sprawdź polskie znaki i licencję.
+
+**Materiały:** próbka folii lub jawny render materiału.
+
+**Unikać:** nie gwarantuj identycznego efektu w druku bez próby.
+
+**Prompt dla agenta:**
+```text
+Zaprojektuj [FORMAT] dla [MARKA], aby osiągnąć [CEL] wśród [ODBIORCY]. Wykorzystaj kierunek Prismatic Foil Emboss: wytłoczona folia z kierunkowym spektralnym połyskiem; zastosuj kompozycję: jeden akcent foliowy na matowym polu, paletę: czarny i widmowe refleksy oraz typografię: stonowany krój premium i czytelne dane. Uwzględnij [TREŚĆ] i [CTA], zachowując czytelny obszar informacji. Materiały: próbka folii lub jawny render materiału; nie gwarantuj identycznego efektu w druku bez próby. Przygotuj rzeczywisty rezultat w wymaganym formacie, sprawdź prawa, polskie znaki, czytelność i kontrast w docelowym rozmiarze oraz oznacz elementy syntetyczne. Jeśli potrzebny jest ruch, zapewnij wersję statyczną. W raporcie odróżnij testy wykonane od niewykonanych.
+```
+
+<a id="styl-26"></a>
+### 26. Exploded Blueprint — instrukcja i prompt PL
+
+**Podstawy stylu:** rozstrzelony schemat części z liniami konstrukcyjnymi. Rysunek wyjaśnia relacje części, nie stanowi dekoracyjnej wizualizacji danych 14.
+
+**Kiedy używać:** produkty techniczne i instrukcje koncepcyjne.
+
+**Kompozycja:** części wzdłuż osi i oddzielna legenda.
+
+**Kolor:** kobalt i biel; sprawdź kontrast faktycznych zestawień.
+
+**Typografia:** techniczny sans z czytelnymi podpisami; sprawdź polskie znaki i licencję.
+
+**Materiały:** zweryfikowany rysunek techniczny lub oznaczony koncept.
+
+**Unikać:** nie używaj fikcyjnych części jako instrukcji serwisowej.
+
+**Prompt dla agenta:**
+```text
+Zaprojektuj [FORMAT] dla [MARKA], aby osiągnąć [CEL] wśród [ODBIORCY]. Wykorzystaj kierunek Exploded Blueprint: rozstrzelony schemat części z liniami konstrukcyjnymi; zastosuj kompozycję: części wzdłuż osi i oddzielna legenda, paletę: kobalt i biel oraz typografię: techniczny sans z czytelnymi podpisami. Uwzględnij [TREŚĆ] i [CTA], zachowując czytelny obszar informacji. Materiały: zweryfikowany rysunek techniczny lub oznaczony koncept; nie używaj fikcyjnych części jako instrukcji serwisowej. Przygotuj rzeczywisty rezultat w wymaganym formacie, sprawdź prawa, polskie znaki, czytelność i kontrast w docelowym rozmiarze oraz oznacz elementy syntetyczne. Jeśli potrzebny jest ruch, zapewnij wersję statyczną. W raporcie odróżnij testy wykonane od niewykonanych.
+```
+
+<a id="styl-27"></a>
+### 27. False-Colour Infrared — instrukcja i prompt PL
+
+**Podstawy stylu:** fałszywe kolory roślinności i tonalna fotografia krajobrazu. Obraz interpretuje podczerwień, nie jest rzeczywistym pomiarem.
+
+**Kiedy używać:** editorial i okładki muzyczne.
+
+**Kompozycja:** jeden spokojny krajobraz z wyraźnym horyzontem.
+
+**Kolor:** róż roślinności i ciemny turkus; sprawdź kontrast faktycznych zestawień.
+
+**Typografia:** neutralny sans bez efektów; sprawdź polskie znaki i licencję.
+
+**Materiały:** licencjonowane zdjęcie IR lub syntetyczna interpretacja.
+
+**Unikać:** nie opisuj obrazu jako pomiaru temperatury.
+
+**Prompt dla agenta:**
+```text
+Zaprojektuj [FORMAT] dla [MARKA], aby osiągnąć [CEL] wśród [ODBIORCY]. Wykorzystaj kierunek False-Colour Infrared: fałszywe kolory roślinności i tonalna fotografia krajobrazu; zastosuj kompozycję: jeden spokojny krajobraz z wyraźnym horyzontem, paletę: róż roślinności i ciemny turkus oraz typografię: neutralny sans bez efektów. Uwzględnij [TREŚĆ] i [CTA], zachowując czytelny obszar informacji. Materiały: licencjonowane zdjęcie IR lub syntetyczna interpretacja; nie opisuj obrazu jako pomiaru temperatury. Przygotuj rzeczywisty rezultat w wymaganym formacie, sprawdź prawa, polskie znaki, czytelność i kontrast w docelowym rozmiarze oraz oznacz elementy syntetyczne. Jeśli potrzebny jest ruch, zapewnij wersję statyczną. W raporcie odróżnij testy wykonane od niewykonanych.
+```
+
+<a id="styl-28"></a>
+### 28. Modern Stained Glass — instrukcja i prompt PL
+
+**Podstawy stylu:** kolorowe płaszczyzny szkła oddzielone ciemnymi szprosami. Od 08 różni się segmentacją nieprzezroczystymi łączeniami i światłem od tyłu.
+
+**Kiedy używać:** plakaty kulturalne i grafiki przestrzeni.
+
+**Kompozycja:** kilka dużych pól z wyraźnym rytmem łączeń.
+
+**Kolor:** rubin i ultramaryna; sprawdź kontrast faktycznych zestawień.
+
+**Typografia:** prosty krój kontrastujący z geometrią; sprawdź polskie znaki i licencję.
+
+**Materiały:** autorskie szkło lub oznaczona cyfrowa interpretacja.
+
+**Unikać:** nie kopiuj rozpoznawalnego zabytkowego wzoru.
+
+**Prompt dla agenta:**
+```text
+Zaprojektuj [FORMAT] dla [MARKA], aby osiągnąć [CEL] wśród [ODBIORCY]. Wykorzystaj kierunek Modern Stained Glass: kolorowe płaszczyzny szkła oddzielone ciemnymi szprosami; zastosuj kompozycję: kilka dużych pól z wyraźnym rytmem łączeń, paletę: rubin i ultramaryna oraz typografię: prosty krój kontrastujący z geometrią. Uwzględnij [TREŚĆ] i [CTA], zachowując czytelny obszar informacji. Materiały: autorskie szkło lub oznaczona cyfrowa interpretacja; nie kopiuj rozpoznawalnego zabytkowego wzoru. Przygotuj rzeczywisty rezultat w wymaganym formacie, sprawdź prawa, polskie znaki, czytelność i kontrast w docelowym rozmiarze oraz oznacz elementy syntetyczne. Jeśli potrzebny jest ruch, zapewnij wersję statyczną. W raporcie odróżnij testy wykonane od niewykonanych.
+```
+
+<a id="styl-29"></a>
+### 29. Pixel-Sorted Portrait — instrukcja i prompt PL
+
+**Podstawy stylu:** portret z kontrolowanym cyfrowym rozciągnięciem pikseli. Efekt dotyczy cyfrowego rozpadu obrazu, a nie nostalgicznego interfejsu 11.
+
+**Kiedy używać:** muzyka i kampanie artystyczne.
+
+**Kompozycja:** rozpoznawalna twarz z efektem w wybranej strefie.
+
+**Kolor:** czerń oraz kontrolowane rozdzielenie RGB; sprawdź kontrast faktycznych zestawień.
+
+**Typografia:** czytelna typografia poza deformacją; sprawdź polskie znaki i licencję.
+
+**Materiały:** autoryzowany portret lub fikcyjny syntetyczny model.
+
+**Unikać:** nie deformuj informacji ani twarzy osoby bez zgody.
+
+**Prompt dla agenta:**
+```text
+Zaprojektuj [FORMAT] dla [MARKA], aby osiągnąć [CEL] wśród [ODBIORCY]. Wykorzystaj kierunek Pixel-Sorted Portrait: portret z kontrolowanym cyfrowym rozciągnięciem pikseli; zastosuj kompozycję: rozpoznawalna twarz z efektem w wybranej strefie, paletę: czerń oraz kontrolowane rozdzielenie RGB oraz typografię: czytelna typografia poza deformacją. Uwzględnij [TREŚĆ] i [CTA], zachowując czytelny obszar informacji. Materiały: autoryzowany portret lub fikcyjny syntetyczny model; nie deformuj informacji ani twarzy osoby bez zgody. Przygotuj rzeczywisty rezultat w wymaganym formacie, sprawdź prawa, polskie znaki, czytelność i kontrast w docelowym rozmiarze oraz oznacz elementy syntetyczne. Jeśli potrzebny jest ruch, zapewnij wersję statyczną. W raporcie odróżnij testy wykonane od niewykonanych.
+```
+
+<a id="styl-30"></a>
+### 30. Solarized Duotone — instrukcja i prompt PL
+
+**Podstawy stylu:** fotograficzna solaryzacja i tonalne odwrócenie krawędzi. To transformacja tonalna fotografii, a nie raster i separacje riso 18.
+
+**Kiedy używać:** okładki i beauty editorial.
+
+**Kompozycja:** jeden przedmiot z kontrastową obwódką.
+
+**Kolor:** kwasowy żółty i fiolet; sprawdź kontrast faktycznych zestawień.
+
+**Typografia:** spokojny sans, informacja poza obrazem; sprawdź polskie znaki i licencję.
+
+**Materiały:** oryginalna fotografia lub wyraźnie oznaczony render.
+
+**Unikać:** nie przedstawiaj kolorów produktu jako wiernych.
+
+**Prompt dla agenta:**
+```text
+Zaprojektuj [FORMAT] dla [MARKA], aby osiągnąć [CEL] wśród [ODBIORCY]. Wykorzystaj kierunek Solarized Duotone: fotograficzna solaryzacja i tonalne odwrócenie krawędzi; zastosuj kompozycję: jeden przedmiot z kontrastową obwódką, paletę: kwasowy żółty i fiolet oraz typografię: spokojny sans, informacja poza obrazem. Uwzględnij [TREŚĆ] i [CTA], zachowując czytelny obszar informacji. Materiały: oryginalna fotografia lub wyraźnie oznaczony render; nie przedstawiaj kolorów produktu jako wiernych. Przygotuj rzeczywisty rezultat w wymaganym formacie, sprawdź prawa, polskie znaki, czytelność i kontrast w docelowym rozmiarze oraz oznacz elementy syntetyczne. Jeśli potrzebny jest ruch, zapewnij wersję statyczną. W raporcie odróżnij testy wykonane od niewykonanych.
 ```
