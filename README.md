@@ -1,6 +1,6 @@
 # Design Trends 2027
 
-**Jeden skill dla agenta. Dziesięć kierunków wizualnych. Konkretne decyzje zamiast ślepego podążania za modą.**
+**Jeden skill dla agenta. Szesnaście kierunków wizualnych. Konkretne decyzje zamiast ślepego podążania za modą.**
 
 ![Wygenerowana martwa natura z papierowymi formami, szkłem i figurką](hero.png)
 
@@ -8,7 +8,7 @@
 
 To repozytorium zawiera **jeden przenośny skill** `design-trends-2027`, a nie dziesięć osobnych skilli. Pomaga agentowi dobrać i zastosować kierunek wizualny w grafice, identyfikacji, kampanii lub interfejsie: od briefu i wyboru stylu po wykonanie oraz kontrolę czytelności i dostępności.
 
-Pierwszych **siedem kierunków** to praktyczne interpretacje tematów z [wskazanego filmu](https://youtu.be/6m7Y5SKXhks). Kolejne **trzy** są dodatkami redakcyjnymi opartymi na osobnych źródłach. Wszystkie należy traktować jako **prognozy i hipotezy twórcze**, nie ranking popularności, dowód skuteczności ani pomiar rynku w 2027 roku. Kierunki mogą się przenikać; nie trzeba wykorzystywać wszystkich.
+Pierwszych **siedem kierunków** to praktyczne interpretacje tematów z [wskazanego filmu](https://youtu.be/6m7Y5SKXhks). Kolejne **dziewięć** są dodatkami redakcyjnymi opartymi na osobnych źródłach. Wszystkie należy traktować jako **prognozy i hipotezy twórcze**, nie ranking popularności, dowód skuteczności ani pomiar rynku w 2027 roku. Kierunki mogą się przenikać; nie trzeba wykorzystywać wszystkich.
 
 ## Inspiracje wizualne
 
@@ -22,6 +22,30 @@ Trzy **ilustracje wygenerowane przez AI** pokazują różne sposoby interpretacj
 
 ![Radosna maskotka pośród kolorowych geometrycznych kształtów](assets/trends-playful-geometry.png)
 *Cute-morphism · ekspresyjna geometria — inspiracja wizualna*
+
+### Nowe kierunki — trzy osobne ilustracje AI
+
+Wygenerowane sceny są demonstracjami syntetycznymi, nie zdjęciami rzeczywistych obiektów ani dowodem popularności stylów.
+
+![Retrofuturystyczne okna, kursor i dyskietka w błękicie i pomarańczu](assets/trends-retro-computing.png)
+*11. Retro computing — interpretacja estetyki interfejsów; inspiracja: [Canva Prompt Playground](https://www.canva.com/newsroom/news/design-trends-2026/).*
+
+![Minimalistyczna papierowa rzeźba na ciemnozielonym tle](assets/trends-quiet-editorial.png)
+*12. Spokojny editorial — syntetyczne studium papieru; inspiracja: [Canva Opt-Out Era](https://www.canva.com/newsroom/news/design-trends-2026/).*
+
+![Dekoracyjna martwa natura z koronką, srebrem i czerwonymi kwiatami](assets/trends-ornamental-maximalism.png)
+*13. Ornamentalny maksymalizm — syntetyczna martwa natura; inspiracja: [Creative Market Rococo Romance](https://www.creativemarket.com/trends/).*
+
+### Kolejne trzy interpretacje — osobne ilustracje AI
+
+![Abstrakcyjne linie i punkty na granatowym tle](assets/trends-data-poetry.png)
+*14. Data poetry — syntetyczna ilustracja, nie wizualizacja rzeczywistych danych. Inspiracja: [Cooper Hewitt, Flight Patterns](https://www.cooperhewitt.org/2015/08/05/flight-patterns/).*
+
+![Organiczne rzeźbiarskie formy w zieleni i kremie](assets/trends-biomorphic.png)
+*15. Biomorficzna rzeźba — syntetyczne studium form; kontekst historyczny: [The Met](https://www.metmuseum.org/exhibitions/listings/2000/century-of-design-part-ii).*
+
+![Abstrakcyjna czarno-biała architektura i światłocień](assets/trends-monochrome.png)
+*16. Monochromatyczna architektura — syntetyczna kompozycja; odniesienie do formy: [The Met, Bauhaus](https://www.metmuseum.org/essays/the-bauhaus-1919-1933).*
 
 ## Instalacja skilla
 
@@ -82,7 +106,7 @@ Podaj agentowi **medium, odbiorcę, markę, cel, treść i format końcowy**. Do
 
 > Użyj skilla `design-trends-2027`. Przygotuj koncepcję i możliwy do edycji projekt ulotki A5 dla lokalnego festiwalu ilustracji: „Festiwal Rysunku”, 18 czerwca, Dom Kultury, wstęp wolny. Sprawdź, czy świadomie naiwny styl pasuje do odbiorców, i zaproponuj jeden kierunek pomocniczy. Zostaw wyraźny blok informacji; zweryfikuj czytelność w rozmiarze wydruku i prawa do użytych ilustracji. Jeśli brakuje materiału marki, oznacz placeholder zamiast go wymyślać.
 
-## 10 kierunków w praktyce
+## 16 kierunków w praktyce
 
 ### 1. Handmade i analog
 
@@ -123,6 +147,32 @@ Podaj agentowi **medium, odbiorcę, markę, cel, treść i format końcowy**. Do
 ### 10. Ruch z funkcją
 
 **Na czym polega:** animacja pomaga zrozumieć zmianę stanu, orientację lub narrację, zamiast być wyłącznie ozdobą. **Kiedy:** przejścia między krokami, informacja zwrotna i opowieści redakcyjne. **Unikaj:** ciągłego ruchu, przejmowania przewijania i ukrywania niezbędnych treści za animacją; zapewnij wersję statyczną i respektuj ograniczenie ruchu.
+
+### 11. Zabawne retro computing
+
+Okna, piksele i kursor budują ilustrację dla tematów technologicznych. Faktyczne przyciski muszą pozostać odróżnialne, a tekst użytkowy czytelny.
+
+### 12. Spokojny editorial
+
+Oszczędna siatka, jeden obraz, wyrazisty krój i przestrzeń wspierają dłuższą lekturę. Nie zastępuj czytelności zbyt małym tekstem ani niskim kontrastem.
+
+### 13. Ornamentalny maksymalizm
+
+Powtarzalne ornamenty, bogate faktury i jeden dominujący obiekt tworzą bogaty klimat; informacje umieść na spokojnym polu. Sprawdź prawa i kontekst motywów kulturowych.
+
+### 14. Data poetry
+
+Punkty i linie tworzą ekspresyjną narrację. Jeśli mają przedstawiać dane, potrzebują prawdziwego źródła, skali i legendy; ilustracja powyżej nie przedstawia pomiarów.
+
+### 15. Biomorficzna rzeźba
+
+Organiczne, nieregularne bryły tworzą spokojny wizualny język. Syntetycznej formy nie należy przedstawiać jako prawdziwego obiektu ani dowodu ekologicznego materiału.
+
+### 16. Monochromatyczna architektura
+
+Światło, cień i modularna siatka budują silny kontrast. Tekst musi pozostać czytelny, a fikcyjna architektura nie może udawać prawdziwej lokalizacji.
+
+Szczegółowe receptury, palety, antywzorce i QA: [receptury 11–16](skills/design-trends-2027/references/application-recipes.md). Nowe kierunki to nasze eksperymenty na podstawie źródeł historycznych i współczesnych, nie potwierdzone trendy roku 2027.
 
 ## Zawartość repozytorium
 
