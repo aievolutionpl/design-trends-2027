@@ -31,10 +31,10 @@ class SkillTests(unittest.TestCase):
                 self.assertTrue(resolved.is_relative_to(ROOT), (path, target))
                 self.assertTrue(resolved.exists(), (path, target))
 
-    def test_sixteen_complete_recipes(self):
+    def test_twenty_complete_recipes(self):
         text = RECIPES.read_text(encoding='utf-8')
         sections = re.split(r'(?m)^## (\d+)\. ', text)[1:]
-        self.assertEqual([int(x) for x in sections[::2]], list(range(1, 17)))
+        self.assertEqual([int(x) for x in sections[::2]], list(range(1, 21)))
         for number, body in zip(sections[::2], sections[1::2]):
             for field in ('Decision and use', 'Composition', 'Color', 'Typography',
                           'Imagery', 'Motion', 'Anti-pattern', 'QA', 'Brief example'):
@@ -43,27 +43,56 @@ class SkillTests(unittest.TestCase):
 
     def test_routing_and_evidence_guards(self):
         text = SKILL.read_text(encoding='utf-8')
-        for n in range(1, 17):
+        for n in range(1, 21):
             self.assertRegex(text, rf'(?m)^\| {n} ')
         for value in ('one lead', 'supporting directions', 'placeholder',
                       'actual output', 'not measured 2027', 'tested versus proposed'):
             self.assertIn(value, text)
         self.assertIn('independent editorial additions', text)
 
-    def test_new_directions_have_distinct_assets_and_sources(self):
+    def test_twenty_polish_prompts(self):
+        text = RECIPES.read_text(encoding='utf-8')
+        sections = re.split(r'(?m)^<a id="styl-(\d{2})"></a>\n', text)[1:]
+        self.assertEqual([int(n) for n in sections[::2]], list(range(1, 21)))
+        prompts = []
+        for number, body in zip(sections[::2], sections[1::2]):
+            for field in ('Podstawy stylu', 'Kiedy używać', 'Kompozycja', 'Kolor',
+                          'Typografia', 'Materiały', 'Unikać', 'Prompt dla agenta'):
+                with self.subTest(direction=number, field=field):
+                    self.assertIn(f'**{field}:**', body)
+            prompt = re.search(r'\*\*Prompt dla agenta:\*\*\s*```text\n(.+?)\n```', body, re.S)
+            self.assertIsNotNone(prompt, number)
+            if prompt is None:
+                continue
+            prompts.append(prompt.group(1))
+            for token in ('[FORMAT]', '[MARKA]', '[CEL]', '[ODBIORCY]', '[TREŚĆ]', '[CTA]'):
+                self.assertIn(token, prompt.group(1))
+        self.assertEqual(len(set(prompts)), 20)
+
+    def test_twenty_images_and_sources(self):
         project = ROOT.parents[1]
         readme = (project / 'README.md').read_text(encoding='utf-8')
         sources = (ROOT / 'references' / 'sources.md').read_text(encoding='utf-8')
-        for name in ('data-poetry', 'biomorphic', 'monochrome'):
-            asset = project / 'assets' / f'trends-{name}.png'
-            with self.subTest(asset=name):
+        headings = [int(x) for x in re.findall(r'^### (\d{2})\. ', readme, re.M)]
+        self.assertEqual(headings, list(range(1, 21)))
+        images = re.findall(r'!\[[^]]*\]\((assets/style-\d{2}\.png)\)', readme)
+        self.assertEqual(images, [f'assets/style-{n:02d}.png' for n in range(1, 21)])
+        content = []
+        for n, image in enumerate(images, 1):
+            asset = project / image
+            with self.subTest(asset=image):
                 self.assertTrue(asset.is_file())
                 self.assertGreater(asset.stat().st_size, 1000)
-                self.assertIn(f'assets/trends-{name}.png', readme)
                 self.assertEqual(asset.read_bytes()[:8], b'\x89PNG\r\n\x1a\n')
+                self.assertIn(f'application-recipes.md#styl-{n:02d}', readme)
+                content.append(asset.read_bytes())
+        self.assertEqual(len(set(content)), 20)
         for source in ('flight-patterns', 'century-of-design-part-ii', 'the-bauhaus-1919-1933'):
             self.assertIn(source, sources)
         self.assertIn('not evidence of 2027 adoption', sources)
+        for source in ('nngroup.com/articles/neobrutalism', 'reprographix.ink/risograph-printing/guide',
+                       '10.37186/swrks/7.2/3', 'omoro.io/photography/clay-style'):
+            self.assertIn(source, sources)
 
 
 if __name__ == '__main__':

@@ -179,3 +179,511 @@ Read the selected numbered entry only. Colors below are starting palettes, not c
 - **Anti-pattern:** low-contrast gray copy or using a synthetic building as evidence of a real location.
 - **QA:** check actual text contrast, crop, rights, readability, and non-color state indicators.
 - **Brief example:** a monochrome architecture journal cover with a separate legible title block.
+
+## 17. Neo-Brutalism
+- **Decision and use:** odważne kampanie, strony i produkty o nieformalnym tonie.
+- **Composition:** modułowa siatka, wyraźne obramowania, czytelne CTA.
+- **Color:** dwa lub trzy intensywne kolory oraz czarny tekst.
+- **Typography:** ciężki grotesk w nagłówku, neutralny sans w tekście.
+- **Imagery:** płaskie wektory, ostre krawędzie, przesunięte twarde cienie.
+- **Motion:** optional only when useful; retain a static and reduced-motion alternative.
+- **Anti-pattern:** nie zakładaj dostępności bez pomiaru kontrastu i testu sterowania.
+- **QA:** check rights, truthful provenance, contrast, hierarchy and actual-size readability; test interactions when applicable.
+- **Brief example:** dobierz format i odbiorcę do celu oraz zasad marki.
+
+## 18. Risograph Layers
+- **Decision and use:** plakaty, zin i identyfikacja kulturalna.
+- **Composition:** dwie lub trzy warstwy z centralnym motywem i spokojnym blokiem tekstu.
+- **Color:** ograniczona paleta farb punktowych, np. niebieski i róż.
+- **Typography:** masywny nagłówek, mały tekst w jednej ciemnej farbie.
+- **Imagery:** papier, półprzezroczyste nadruki, rastry; przy druku osobna separacja na farbę.
+- **Motion:** optional only when useful; retain a static and reduced-motion alternative.
+- **Anti-pattern:** nie nakładaj kilku farb na drobny tekst; uzgodnij specyfikację z drukarnią.
+- **QA:** check rights, truthful provenance, contrast, hierarchy and actual-size readability; test interactions when applicable.
+- **Brief example:** dobierz format i odbiorcę do celu oraz zasad marki.
+
+## 19. Cinematic Light & Shadow
+- **Decision and use:** kampania premium, portret, prezentacja produktu.
+- **Composition:** jeden punkt skupienia, światło boczne i czytelna przestrzeń na tekst.
+- **Color:** głębokie neutralne cienie i jeden ciepły lub chłodny akcent.
+- **Typography:** oszczędny wyrazisty nagłówek, spokojny tekst.
+- **Imagery:** fotografia lub render, światło kluczowe i kontrolowane wypełnienie.
+- **Motion:** optional only when useful; retain a static and reduced-motion alternative.
+- **Anti-pattern:** nie gub detali produktu w czerni i nie twierdź, że render jest zdjęciem.
+- **QA:** check rights, truthful provenance, contrast, hierarchy and actual-size readability; test interactions when applicable.
+- **Brief example:** dobierz format i odbiorcę do celu oraz zasad marki.
+
+## 20. Soft 3D / Clay
+- **Decision and use:** przyjazne ilustracje, onboarding i opakowania.
+- **Composition:** jeden duży obiekt, kilka prostych elementów i wolna przestrzeń.
+- **Color:** stonowane pastele i ciemny kolor tekstu.
+- **Typography:** przyjazny display oraz czytelny sans.
+- **Imagery:** glina lub render glinopodobny, rozproszone światło i miękkie cienie.
+- **Motion:** optional only when useful; retain a static and reduced-motion alternative.
+- **Anti-pattern:** nie myl syntetycznej faktury z prawdziwą gliną i nie używaj niskiego kontrastu.
+- **QA:** check rights, truthful provenance, contrast, hierarchy and actual-size readability; test interactions when applicable.
+- **Brief example:** dobierz format i odbiorcę do celu oraz zasad marki.
+
+## Instrukcje i gotowe prompty po polsku
+
+Uzupełnij pola w nawiasach kwadratowych. Prompt jest instrukcją dla agenta projektowego, a nie obietnicą gotowego obrazu.
+
+<a id="styl-01"></a>
+### 01. Handmade / analog — instrukcja i prompt PL
+
+**Podstawy stylu:** ciepło ręcznej pracy i materialne niedoskonałości.
+
+**Kiedy używać:** rzemiosło, gastronomia, marki autorskie.
+
+**Kompozycja:** jeden papierowy bohater i spokojny blok informacji.
+
+**Kolor:** krem, grafit, ceglasty akcent.
+
+**Typografia:** ekspresyjny szeryf i prosty krój tekstowy.
+
+**Materiały:** autoryzowany papier, farba lub skan.
+
+**Unikać:** nie sugeruj rzeczywistego rękodzieła przy syntetycznej fakturze.
+
+**Prompt dla agenta:**
+
+```text
+Jesteś agentem projektowym. Przygotuj [FORMAT] dla [MARKA] do [CEL] dla [ODBIORCY] w stylu Handmade / analog. Zbuduj kompozycję: jeden papierowy bohater i spokojny blok informacji; zastosuj krem, grafit, ceglasty akcent; typografia: ekspresyjny szeryf i prosty krój tekstowy. Materiały: autoryzowany papier, farba lub skan. Umieść [TREŚĆ] i [CTA] w czytelnej hierarchii, zachowaj zasady marki oraz wymagane wymiary. Używaj wyłącznie autoryzowanych zasobów, oznacz syntetyczne materiały, sprawdź kontrast, polskie znaki i czytelność w docelowym rozmiarze. Unikaj: nie sugeruj rzeczywistego rękodzieła przy syntetycznej fakturze. Dostarcz edytowalny projekt i eksport oraz wypisz rzeczywiście wykonane kontrole i ograniczenia.
+```
+
+<a id="styl-02"></a>
+### 02. Cute character — instrukcja i prompt PL
+
+**Podstawy stylu:** oryginalna przyjazna postać o spójnych proporcjach.
+
+**Kiedy używać:** edukacja i onboarding.
+
+**Kompozycja:** postać obok wyraźnego działania, nie zamiast niego.
+
+**Kolor:** krem, granat i koral.
+
+**Typografia:** zaokrąglony nagłówek, czytelny sans.
+
+**Materiały:** autorska ilustracja, zestaw mimiki i wersja monochromatyczna.
+
+**Unikać:** nie zastępuj ostrzeżeń maskotką ani nie kopiuj cudzych postaci.
+
+**Prompt dla agenta:**
+
+```text
+Jesteś agentem projektowym. Przygotuj [FORMAT] dla [MARKA] do [CEL] dla [ODBIORCY] w stylu Cute character. Zbuduj kompozycję: postać obok wyraźnego działania, nie zamiast niego; zastosuj krem, granat i koral; typografia: zaokrąglony nagłówek, czytelny sans. Materiały: autorska ilustracja, zestaw mimiki i wersja monochromatyczna. Umieść [TREŚĆ] i [CTA] w czytelnej hierarchii, zachowaj zasady marki oraz wymagane wymiary. Używaj wyłącznie autoryzowanych zasobów, oznacz syntetyczne materiały, sprawdź kontrast, polskie znaki i czytelność w docelowym rozmiarze. Unikaj: nie zastępuj ostrzeżeń maskotką ani nie kopiuj cudzych postaci. Dostarcz edytowalny projekt i eksport oraz wypisz rzeczywiście wykonane kontrole i ograniczenia.
+```
+
+<a id="styl-03"></a>
+### 03. Process / imperfection — instrukcja i prompt PL
+
+**Podstawy stylu:** prawdziwe decyzje i ślady pracy.
+
+**Kiedy używać:** portfolio i studia przypadku z udokumentowanym procesem.
+
+**Kompozycja:** wynik przed trzema chronologicznymi etapami.
+
+**Kolor:** złamana biel, grafit, niebieskie adnotacje.
+
+**Typografia:** redakcyjny szeryf i czytelne podpisy.
+
+**Materiały:** zatwierdzone szkice, notatki i fotografie.
+
+**Unikać:** nie fabrykuj etapów ani nie ujawniaj poufnych materiałów.
+
+**Prompt dla agenta:**
+
+```text
+Jesteś agentem projektowym. Przygotuj [FORMAT] dla [MARKA] do [CEL] dla [ODBIORCY] w stylu Process / imperfection. Zbuduj kompozycję: wynik przed trzema chronologicznymi etapami; zastosuj złamana biel, grafit, niebieskie adnotacje; typografia: redakcyjny szeryf i czytelne podpisy. Materiały: zatwierdzone szkice, notatki i fotografie. Umieść [TREŚĆ] i [CTA] w czytelnej hierarchii, zachowaj zasady marki oraz wymagane wymiary. Używaj wyłącznie autoryzowanych zasobów, oznacz syntetyczne materiały, sprawdź kontrast, polskie znaki i czytelność w docelowym rozmiarze. Unikaj: nie fabrykuj etapów ani nie ujawniaj poufnych materiałów. Dostarcz edytowalny projekt i eksport oraz wypisz rzeczywiście wykonane kontrole i ograniczenia.
+```
+
+<a id="styl-04"></a>
+### 04. Found real textures — instrukcja i prompt PL
+
+**Podstawy stylu:** istotny dla opowieści rzeczywisty materiał.
+
+**Kiedy używać:** produkt tekstylny, miejsce, marka lokalna.
+
+**Kompozycja:** duże pole faktury obok gładkiego panelu tekstu.
+
+**Kolor:** barwy materiału, kamień i ciemna zieleń.
+
+**Typografia:** mocny prosty nagłówek i czytelny tekst.
+
+**Materiały:** własna lub licencjonowana fotografia tkaniny, kamienia albo drewna.
+
+**Unikać:** nie kładź drobnego tekstu na chaotycznej fakturze.
+
+**Prompt dla agenta:**
+
+```text
+Jesteś agentem projektowym. Przygotuj [FORMAT] dla [MARKA] do [CEL] dla [ODBIORCY] w stylu Found real textures. Zbuduj kompozycję: duże pole faktury obok gładkiego panelu tekstu; zastosuj barwy materiału, kamień i ciemna zieleń; typografia: mocny prosty nagłówek i czytelny tekst. Materiały: własna lub licencjonowana fotografia tkaniny, kamienia albo drewna. Umieść [TREŚĆ] i [CTA] w czytelnej hierarchii, zachowaj zasady marki oraz wymagane wymiary. Używaj wyłącznie autoryzowanych zasobów, oznacz syntetyczne materiały, sprawdź kontrast, polskie znaki i czytelność w docelowym rozmiarze. Unikaj: nie kładź drobnego tekstu na chaotycznej fakturze. Dostarcz edytowalny projekt i eksport oraz wypisz rzeczywiście wykonane kontrole i ograniczenia.
+```
+
+<a id="styl-05"></a>
+### 05. Surrealism — instrukcja i prompt PL
+
+**Podstawy stylu:** jedna niemożliwa zmiana skali, grawitacji lub kontekstu.
+
+**Kiedy używać:** kampania ideowa i ilustracja redakcyjna.
+
+**Kompozycja:** jeden bohater z konsekwentną perspektywą, osobne pole komunikatu.
+
+**Kolor:** jasne tło, ciemny atrament, jeden ciepły akcent.
+
+**Typografia:** prosty mocny sans bez konkurencji z obrazem.
+
+**Materiały:** licencjonowany kolaż lub oznaczony render.
+
+**Unikać:** nie przedstawiaj fikcyjnej sceny jako dowodu cech produktu.
+
+**Prompt dla agenta:**
+
+```text
+Jesteś agentem projektowym. Przygotuj [FORMAT] dla [MARKA] do [CEL] dla [ODBIORCY] w stylu Surrealism. Zbuduj kompozycję: jeden bohater z konsekwentną perspektywą, osobne pole komunikatu; zastosuj jasne tło, ciemny atrament, jeden ciepły akcent; typografia: prosty mocny sans bez konkurencji z obrazem. Materiały: licencjonowany kolaż lub oznaczony render. Umieść [TREŚĆ] i [CTA] w czytelnej hierarchii, zachowaj zasady marki oraz wymagane wymiary. Używaj wyłącznie autoryzowanych zasobów, oznacz syntetyczne materiały, sprawdź kontrast, polskie znaki i czytelność w docelowym rozmiarze. Unikaj: nie przedstawiaj fikcyjnej sceny jako dowodu cech produktu. Dostarcz edytowalny projekt i eksport oraz wypisz rzeczywiście wykonane kontrole i ograniczenia.
+```
+
+<a id="styl-06"></a>
+### 06. Expressive typography — instrukcja i prompt PL
+
+**Podstawy stylu:** liternictwo jako główny obraz.
+
+**Kiedy używać:** krótkie hasło, plakat i identyfikacja wydarzenia.
+
+**Kompozycja:** wielki nagłówek i spokojna siatka szczegółów.
+
+**Kolor:** biel, czerń, jeden elektryczny akcent.
+
+**Typografia:** charakterystyczny krój nagłówka i neutralny tekstowy.
+
+**Materiały:** licencjonowane fonty, edytowalny tekst, ewentualnie prosty wektor.
+
+**Unikać:** nie poświęcaj polskich znaków, łamania ani czytelności.
+
+**Prompt dla agenta:**
+
+```text
+Jesteś agentem projektowym. Przygotuj [FORMAT] dla [MARKA] do [CEL] dla [ODBIORCY] w stylu Expressive typography. Zbuduj kompozycję: wielki nagłówek i spokojna siatka szczegółów; zastosuj biel, czerń, jeden elektryczny akcent; typografia: charakterystyczny krój nagłówka i neutralny tekstowy. Materiały: licencjonowane fonty, edytowalny tekst, ewentualnie prosty wektor. Umieść [TREŚĆ] i [CTA] w czytelnej hierarchii, zachowaj zasady marki oraz wymagane wymiary. Używaj wyłącznie autoryzowanych zasobów, oznacz syntetyczne materiały, sprawdź kontrast, polskie znaki i czytelność w docelowym rozmiarze. Unikaj: nie poświęcaj polskich znaków, łamania ani czytelności. Dostarcz edytowalny projekt i eksport oraz wypisz rzeczywiście wykonane kontrole i ograniczenia.
+```
+
+<a id="styl-07"></a>
+### 07. Deliberately naive — instrukcja i prompt PL
+
+**Podstawy stylu:** świadoma zabawa prostotą i pozorną niezręcznością.
+
+**Kiedy używać:** wydarzenie społeczne, humor, niezależna kultura.
+
+**Kompozycja:** nieregularne dekoracje wokół uporządkowanych informacji.
+
+**Kolor:** papierowy krem, czerwony i niebieski.
+
+**Typografia:** prosty systemowy sans, jeden nietypowy nagłówek.
+
+**Materiały:** autorski clip art i nieskomplikowane kształty.
+
+**Unikać:** nie myl niedbałej użyteczności z zamierzoną ekspresją.
+
+**Prompt dla agenta:**
+
+```text
+Jesteś agentem projektowym. Przygotuj [FORMAT] dla [MARKA] do [CEL] dla [ODBIORCY] w stylu Deliberately naive. Zbuduj kompozycję: nieregularne dekoracje wokół uporządkowanych informacji; zastosuj papierowy krem, czerwony i niebieski; typografia: prosty systemowy sans, jeden nietypowy nagłówek. Materiały: autorski clip art i nieskomplikowane kształty. Umieść [TREŚĆ] i [CTA] w czytelnej hierarchii, zachowaj zasady marki oraz wymagane wymiary. Używaj wyłącznie autoryzowanych zasobów, oznacz syntetyczne materiały, sprawdź kontrast, polskie znaki i czytelność w docelowym rozmiarze. Unikaj: nie myl niedbałej użyteczności z zamierzoną ekspresją. Dostarcz edytowalny projekt i eksport oraz wypisz rzeczywiście wykonane kontrole i ograniczenia.
+```
+
+<a id="styl-08"></a>
+### 08. Dynamic materials — instrukcja i prompt PL
+
+**Podstawy stylu:** warstwowe półprzezroczyste powierzchnie podkreślające hierarchię.
+
+**Kiedy używać:** nawigacja i interfejs z wyraźnymi warstwami.
+
+**Kompozycja:** nieprzezroczysta treść i jeden unoszący się panel.
+
+**Kolor:** jasne neutralne powierzchnie, ciemny tekst, niebieska akcja.
+
+**Typografia:** stabilny interfejsowy sans.
+
+**Materiały:** szkło cyfrowe, kontrolowane rozmycie, pełne tło zastępcze.
+
+**Unikać:** nie rozmywaj wszystkiego i nie umieszczaj tekstu na zmiennym tle bez testu.
+
+**Prompt dla agenta:**
+
+```text
+Jesteś agentem projektowym. Przygotuj [FORMAT] dla [MARKA] do [CEL] dla [ODBIORCY] w stylu Dynamic materials. Zbuduj kompozycję: nieprzezroczysta treść i jeden unoszący się panel; zastosuj jasne neutralne powierzchnie, ciemny tekst, niebieska akcja; typografia: stabilny interfejsowy sans. Materiały: szkło cyfrowe, kontrolowane rozmycie, pełne tło zastępcze. Umieść [TREŚĆ] i [CTA] w czytelnej hierarchii, zachowaj zasady marki oraz wymagane wymiary. Używaj wyłącznie autoryzowanych zasobów, oznacz syntetyczne materiały, sprawdź kontrast, polskie znaki i czytelność w docelowym rozmiarze. Unikaj: nie rozmywaj wszystkiego i nie umieszczaj tekstu na zmiennym tle bez testu. Dostarcz edytowalny projekt i eksport oraz wypisz rzeczywiście wykonane kontrole i ograniczenia.
+```
+
+<a id="styl-09"></a>
+### 09. Expressive geometry — instrukcja i prompt PL
+
+**Podstawy stylu:** powtarzalny system dwóch lub trzech form.
+
+**Kiedy używać:** rozpoznawalna identyfikacja i system kampanii.
+
+**Kompozycja:** siatka i jedna dominująca figura, reszta pomocnicza.
+
+**Kolor:** kość słoniowa, atrament, turkusowy akcent.
+
+**Typografia:** geometryczny display i neutralny sans.
+
+**Materiały:** oryginalne wektory i czytelne konwencjonalne kontrolki.
+
+**Unikać:** nie udawaj interakcji dekoracją ani nie koduj stanów tylko kolorem.
+
+**Prompt dla agenta:**
+
+```text
+Jesteś agentem projektowym. Przygotuj [FORMAT] dla [MARKA] do [CEL] dla [ODBIORCY] w stylu Expressive geometry. Zbuduj kompozycję: siatka i jedna dominująca figura, reszta pomocnicza; zastosuj kość słoniowa, atrament, turkusowy akcent; typografia: geometryczny display i neutralny sans. Materiały: oryginalne wektory i czytelne konwencjonalne kontrolki. Umieść [TREŚĆ] i [CTA] w czytelnej hierarchii, zachowaj zasady marki oraz wymagane wymiary. Używaj wyłącznie autoryzowanych zasobów, oznacz syntetyczne materiały, sprawdź kontrast, polskie znaki i czytelność w docelowym rozmiarze. Unikaj: nie udawaj interakcji dekoracją ani nie koduj stanów tylko kolorem. Dostarcz edytowalny projekt i eksport oraz wypisz rzeczywiście wykonane kontrole i ograniczenia.
+```
+
+<a id="styl-10"></a>
+### 10. Purposeful motion — instrukcja i prompt PL
+
+**Podstawy stylu:** ruch wyjaśnia zmianę, orientację lub reakcję.
+
+**Kiedy używać:** interfejsy i narracja cyfrowa z uzasadnioną animacją.
+
+**Kompozycja:** najpierw pełny statyczny układ, potem jeden ruch znaczący.
+
+**Kolor:** neutralna powierzchnia, ciemny tekst, akcent działania.
+
+**Typografia:** stabilny czytelny sans.
+
+**Materiały:** lekkie warstwy wektorowe, opcjonalnie licencjonowane media.
+
+**Unikać:** nie ukrywaj treści za animacją; obsłuż ograniczenie ruchu.
+
+**Prompt dla agenta:**
+
+```text
+Jesteś agentem projektowym. Przygotuj [FORMAT] dla [MARKA] do [CEL] dla [ODBIORCY] w stylu Purposeful motion. Zbuduj kompozycję: najpierw pełny statyczny układ, potem jeden ruch znaczący; zastosuj neutralna powierzchnia, ciemny tekst, akcent działania; typografia: stabilny czytelny sans. Materiały: lekkie warstwy wektorowe, opcjonalnie licencjonowane media. Umieść [TREŚĆ] i [CTA] w czytelnej hierarchii, zachowaj zasady marki oraz wymagane wymiary. Używaj wyłącznie autoryzowanych zasobów, oznacz syntetyczne materiały, sprawdź kontrast, polskie znaki i czytelność w docelowym rozmiarze. Unikaj: nie ukrywaj treści za animacją; obsłuż ograniczenie ruchu. Dostarcz edytowalny projekt i eksport oraz wypisz rzeczywiście wykonane kontrole i ograniczenia.
+```
+
+<a id="styl-11"></a>
+### 11. Playful retro computing — instrukcja i prompt PL
+
+**Podstawy stylu:** estetyka dawnych interfejsów jako współczesna zabawa.
+
+**Kiedy używać:** technologia, kultura, wydarzenia.
+
+**Kompozycja:** okna i piksele jako ramy, realne działania wyraźnie odróżnione.
+
+**Kolor:** krem, błękit i pomarańcz.
+
+**Typografia:** czytelny monospace w detalach, prosty tekst.
+
+**Materiały:** oryginalne ikony i pikselowe ornamenty.
+
+**Unikać:** nie kopiuj znaków ani nie zamieniaj ozdobnych okien w fałszywe kontrolki.
+
+**Prompt dla agenta:**
+
+```text
+Jesteś agentem projektowym. Przygotuj [FORMAT] dla [MARKA] do [CEL] dla [ODBIORCY] w stylu Playful retro computing. Zbuduj kompozycję: okna i piksele jako ramy, realne działania wyraźnie odróżnione; zastosuj krem, błękit i pomarańcz; typografia: czytelny monospace w detalach, prosty tekst. Materiały: oryginalne ikony i pikselowe ornamenty. Umieść [TREŚĆ] i [CTA] w czytelnej hierarchii, zachowaj zasady marki oraz wymagane wymiary. Używaj wyłącznie autoryzowanych zasobów, oznacz syntetyczne materiały, sprawdź kontrast, polskie znaki i czytelność w docelowym rozmiarze. Unikaj: nie kopiuj znaków ani nie zamieniaj ozdobnych okien w fałszywe kontrolki. Dostarcz edytowalny projekt i eksport oraz wypisz rzeczywiście wykonane kontrole i ograniczenia.
+```
+
+<a id="styl-12"></a>
+### 12. Quiet editorial — instrukcja i prompt PL
+
+**Podstawy stylu:** spokój, rytm i dużo oddechu.
+
+**Kiedy używać:** długie czytanie i opowieści premium.
+
+**Kompozycja:** asymetryczna siatka, duże marginesy, jeden obraz.
+
+**Kolor:** ciepła biel, grafit, przygaszona zieleń.
+
+**Typografia:** elegancki szeryf i oszczędny sans.
+
+**Materiały:** papier, autorska fotografia lub prosty render.
+
+**Unikać:** nie stosuj zbyt małego tekstu ani pustki bez hierarchii.
+
+**Prompt dla agenta:**
+
+```text
+Jesteś agentem projektowym. Przygotuj [FORMAT] dla [MARKA] do [CEL] dla [ODBIORCY] w stylu Quiet editorial. Zbuduj kompozycję: asymetryczna siatka, duże marginesy, jeden obraz; zastosuj ciepła biel, grafit, przygaszona zieleń; typografia: elegancki szeryf i oszczędny sans. Materiały: papier, autorska fotografia lub prosty render. Umieść [TREŚĆ] i [CTA] w czytelnej hierarchii, zachowaj zasady marki oraz wymagane wymiary. Używaj wyłącznie autoryzowanych zasobów, oznacz syntetyczne materiały, sprawdź kontrast, polskie znaki i czytelność w docelowym rozmiarze. Unikaj: nie stosuj zbyt małego tekstu ani pustki bez hierarchii. Dostarcz edytowalny projekt i eksport oraz wypisz rzeczywiście wykonane kontrole i ograniczenia.
+```
+
+<a id="styl-13"></a>
+### 13. Ornamental maximalism — instrukcja i prompt PL
+
+**Podstawy stylu:** bogactwo ornamentu podporządkowane jednemu motywowi.
+
+**Kiedy używać:** kultura, hotelarstwo i ekspresyjny produkt.
+
+**Kompozycja:** gęsta rama i spokojne centrum z komunikatem.
+
+**Kolor:** głęboka czerwień, krem, metaliczny akcent.
+
+**Typografia:** dekoracyjny display i prosty krój szczegółów.
+
+**Materiały:** koronka, relief, srebro lub ich jawna cyfrowa interpretacja.
+
+**Unikać:** nie zasłaniaj treści ornamentem i nie mnoż motywów bez reguł.
+
+**Prompt dla agenta:**
+
+```text
+Jesteś agentem projektowym. Przygotuj [FORMAT] dla [MARKA] do [CEL] dla [ODBIORCY] w stylu Ornamental maximalism. Zbuduj kompozycję: gęsta rama i spokojne centrum z komunikatem; zastosuj głęboka czerwień, krem, metaliczny akcent; typografia: dekoracyjny display i prosty krój szczegółów. Materiały: koronka, relief, srebro lub ich jawna cyfrowa interpretacja. Umieść [TREŚĆ] i [CTA] w czytelnej hierarchii, zachowaj zasady marki oraz wymagane wymiary. Używaj wyłącznie autoryzowanych zasobów, oznacz syntetyczne materiały, sprawdź kontrast, polskie znaki i czytelność w docelowym rozmiarze. Unikaj: nie zasłaniaj treści ornamentem i nie mnoż motywów bez reguł. Dostarcz edytowalny projekt i eksport oraz wypisz rzeczywiście wykonane kontrole i ograniczenia.
+```
+
+<a id="styl-14"></a>
+### 14. Data poetry — instrukcja i prompt PL
+
+**Podstawy stylu:** estetyczna forma oparta na uczciwym przedstawieniu informacji.
+
+**Kiedy używać:** artykuły i raporty z weryfikowalnymi danymi.
+
+**Kompozycja:** jedna czytelna wizualizacja z legendą i kontekstem.
+
+**Kolor:** ciemny granat, jasne oznaczenia, pojedynczy akcent.
+
+**Typografia:** czytelny sans dla wartości i źródeł.
+
+**Materiały:** rzeczywiste dane z datą i źródłem albo wyraźnie oznaczony wzór dekoracyjny.
+
+**Unikać:** nie prezentuj fikcyjnych punktów jako pomiarów.
+
+**Prompt dla agenta:**
+
+```text
+Jesteś agentem projektowym. Przygotuj [FORMAT] dla [MARKA] do [CEL] dla [ODBIORCY] w stylu Data poetry. Zbuduj kompozycję: jedna czytelna wizualizacja z legendą i kontekstem; zastosuj ciemny granat, jasne oznaczenia, pojedynczy akcent; typografia: czytelny sans dla wartości i źródeł. Materiały: rzeczywiste dane z datą i źródłem albo wyraźnie oznaczony wzór dekoracyjny. Umieść [TREŚĆ] i [CTA] w czytelnej hierarchii, zachowaj zasady marki oraz wymagane wymiary. Używaj wyłącznie autoryzowanych zasobów, oznacz syntetyczne materiały, sprawdź kontrast, polskie znaki i czytelność w docelowym rozmiarze. Unikaj: nie prezentuj fikcyjnych punktów jako pomiarów. Dostarcz edytowalny projekt i eksport oraz wypisz rzeczywiście wykonane kontrole i ograniczenia.
+```
+
+<a id="styl-15"></a>
+### 15. Biomorphic sculpture — instrukcja i prompt PL
+
+**Podstawy stylu:** miękkie organiczne kształty jako rzeźbiarski język.
+
+**Kiedy używać:** identyfikacja inspirowana naturą i opowieść produktowa.
+
+**Kompozycja:** jeden organiczny obiekt na spokojnym tle.
+
+**Kolor:** ziemia, kość słoniowa i zgaszona zieleń.
+
+**Typografia:** prosty sans kontrastujący z miękką formą.
+
+**Materiały:** glina, drewno, autorska rzeźba lub oznaczony render.
+
+**Unikać:** nie przypisuj syntetycznemu obiektowi rzeczywistego pochodzenia.
+
+**Prompt dla agenta:**
+
+```text
+Jesteś agentem projektowym. Przygotuj [FORMAT] dla [MARKA] do [CEL] dla [ODBIORCY] w stylu Biomorphic sculpture. Zbuduj kompozycję: jeden organiczny obiekt na spokojnym tle; zastosuj ziemia, kość słoniowa i zgaszona zieleń; typografia: prosty sans kontrastujący z miękką formą. Materiały: glina, drewno, autorska rzeźba lub oznaczony render. Umieść [TREŚĆ] i [CTA] w czytelnej hierarchii, zachowaj zasady marki oraz wymagane wymiary. Używaj wyłącznie autoryzowanych zasobów, oznacz syntetyczne materiały, sprawdź kontrast, polskie znaki i czytelność w docelowym rozmiarze. Unikaj: nie przypisuj syntetycznemu obiektowi rzeczywistego pochodzenia. Dostarcz edytowalny projekt i eksport oraz wypisz rzeczywiście wykonane kontrole i ograniczenia.
+```
+
+<a id="styl-16"></a>
+### 16. Monochrome architecture — instrukcja i prompt PL
+
+**Podstawy stylu:** rytm konstrukcji i światłocień w ograniczonej palecie.
+
+**Kiedy używać:** editorial, architektura, odważna typografia.
+
+**Kompozycja:** mocna siatka i jeden strukturalny motyw.
+
+**Kolor:** czerń, biel oraz szarości.
+
+**Typografia:** wyrazisty grotesk i prosty tekst pomocniczy.
+
+**Materiały:** licencjonowana fotografia architektury lub abstrakcyjny render.
+
+**Unikać:** nie opieraj znaczenia wyłącznie na kolorze i nie przypisuj Bauhausowi monochromii.
+
+**Prompt dla agenta:**
+
+```text
+Jesteś agentem projektowym. Przygotuj [FORMAT] dla [MARKA] do [CEL] dla [ODBIORCY] w stylu Monochrome architecture. Zbuduj kompozycję: mocna siatka i jeden strukturalny motyw; zastosuj czerń, biel oraz szarości; typografia: wyrazisty grotesk i prosty tekst pomocniczy. Materiały: licencjonowana fotografia architektury lub abstrakcyjny render. Umieść [TREŚĆ] i [CTA] w czytelnej hierarchii, zachowaj zasady marki oraz wymagane wymiary. Używaj wyłącznie autoryzowanych zasobów, oznacz syntetyczne materiały, sprawdź kontrast, polskie znaki i czytelność w docelowym rozmiarze. Unikaj: nie opieraj znaczenia wyłącznie na kolorze i nie przypisuj Bauhausowi monochromii. Dostarcz edytowalny projekt i eksport oraz wypisz rzeczywiście wykonane kontrole i ograniczenia.
+```
+
+<a id="styl-17"></a>
+### 17. Neo-Brutalism — instrukcja i prompt PL
+
+**Podstawy stylu:** surowe bloki, grube obrysy i wyraziste cienie.
+
+**Kiedy używać:** odważne kampanie, strony i produkty o nieformalnym tonie.
+
+**Kompozycja:** modułowa siatka, wyraźne obramowania, czytelne CTA.
+
+**Kolor:** dwa lub trzy intensywne kolory oraz czarny tekst.
+
+**Typografia:** ciężki grotesk w nagłówku, neutralny sans w tekście.
+
+**Materiały:** płaskie wektory, ostre krawędzie, przesunięte twarde cienie.
+
+**Unikać:** nie zakładaj dostępności bez pomiaru kontrastu i testu sterowania.
+
+**Prompt dla agenta:**
+
+```text
+Jesteś agentem projektowym. Przygotuj [FORMAT] dla [MARKA] do [CEL] dla [ODBIORCY] w stylu Neo-Brutalism. Zbuduj kompozycję: modułowa siatka, wyraźne obramowania, czytelne CTA; zastosuj dwa lub trzy intensywne kolory oraz czarny tekst; typografia: ciężki grotesk w nagłówku, neutralny sans w tekście. Materiały: płaskie wektory, ostre krawędzie, przesunięte twarde cienie. Umieść [TREŚĆ] i [CTA] w czytelnej hierarchii, zachowaj zasady marki oraz wymagane wymiary. Używaj wyłącznie autoryzowanych zasobów, oznacz syntetyczne materiały, sprawdź kontrast, polskie znaki i czytelność w docelowym rozmiarze. Unikaj: nie zakładaj dostępności bez pomiaru kontrastu i testu sterowania. Dostarcz edytowalny projekt i eksport oraz wypisz rzeczywiście wykonane kontrole i ograniczenia.
+```
+
+<a id="styl-18"></a>
+### 18. Risograph Layers — instrukcja i prompt PL
+
+**Podstawy stylu:** warstwy farb, raster i subtelne przesunięcie pasowania.
+
+**Kiedy używać:** plakaty, zin i identyfikacja kulturalna.
+
+**Kompozycja:** dwie lub trzy warstwy z centralnym motywem i spokojnym blokiem tekstu.
+
+**Kolor:** ograniczona paleta farb punktowych, np. niebieski i róż.
+
+**Typografia:** masywny nagłówek, mały tekst w jednej ciemnej farbie.
+
+**Materiały:** papier, półprzezroczyste nadruki, rastry; przy druku osobna separacja na farbę.
+
+**Unikać:** nie nakładaj kilku farb na drobny tekst; uzgodnij specyfikację z drukarnią.
+
+**Prompt dla agenta:**
+
+```text
+Jesteś agentem projektowym. Przygotuj [FORMAT] dla [MARKA] do [CEL] dla [ODBIORCY] w stylu Risograph Layers. Zbuduj kompozycję: dwie lub trzy warstwy z centralnym motywem i spokojnym blokiem tekstu; zastosuj ograniczona paleta farb punktowych, np. niebieski i róż; typografia: masywny nagłówek, mały tekst w jednej ciemnej farbie. Materiały: papier, półprzezroczyste nadruki, rastry; przy druku osobna separacja na farbę. Umieść [TREŚĆ] i [CTA] w czytelnej hierarchii, zachowaj zasady marki oraz wymagane wymiary. Używaj wyłącznie autoryzowanych zasobów, oznacz syntetyczne materiały, sprawdź kontrast, polskie znaki i czytelność w docelowym rozmiarze. Unikaj: nie nakładaj kilku farb na drobny tekst; uzgodnij specyfikację z drukarnią. Dostarcz edytowalny projekt i eksport oraz wypisz rzeczywiście wykonane kontrole i ograniczenia.
+```
+
+<a id="styl-19"></a>
+### 19. Cinematic Light & Shadow — instrukcja i prompt PL
+
+**Podstawy stylu:** kierunkowe światło i kontrolowany cień budują dramaturgię.
+
+**Kiedy używać:** kampania premium, portret, prezentacja produktu.
+
+**Kompozycja:** jeden punkt skupienia, światło boczne i czytelna przestrzeń na tekst.
+
+**Kolor:** głębokie neutralne cienie i jeden ciepły lub chłodny akcent.
+
+**Typografia:** oszczędny wyrazisty nagłówek, spokojny tekst.
+
+**Materiały:** fotografia lub render, światło kluczowe i kontrolowane wypełnienie.
+
+**Unikać:** nie gub detali produktu w czerni i nie twierdź, że render jest zdjęciem.
+
+**Prompt dla agenta:**
+
+```text
+Jesteś agentem projektowym. Przygotuj [FORMAT] dla [MARKA] do [CEL] dla [ODBIORCY] w stylu Cinematic Light & Shadow. Zbuduj kompozycję: jeden punkt skupienia, światło boczne i czytelna przestrzeń na tekst; zastosuj głębokie neutralne cienie i jeden ciepły lub chłodny akcent; typografia: oszczędny wyrazisty nagłówek, spokojny tekst. Materiały: fotografia lub render, światło kluczowe i kontrolowane wypełnienie. Umieść [TREŚĆ] i [CTA] w czytelnej hierarchii, zachowaj zasady marki oraz wymagane wymiary. Używaj wyłącznie autoryzowanych zasobów, oznacz syntetyczne materiały, sprawdź kontrast, polskie znaki i czytelność w docelowym rozmiarze. Unikaj: nie gub detali produktu w czerni i nie twierdź, że render jest zdjęciem. Dostarcz edytowalny projekt i eksport oraz wypisz rzeczywiście wykonane kontrole i ograniczenia.
+```
+
+<a id="styl-20"></a>
+### 20. Soft 3D / Clay — instrukcja i prompt PL
+
+**Podstawy stylu:** zaokrąglone bryły o miękkim, matowym wykończeniu.
+
+**Kiedy używać:** przyjazne ilustracje, onboarding i opakowania.
+
+**Kompozycja:** jeden duży obiekt, kilka prostych elementów i wolna przestrzeń.
+
+**Kolor:** stonowane pastele i ciemny kolor tekstu.
+
+**Typografia:** przyjazny display oraz czytelny sans.
+
+**Materiały:** glina lub render glinopodobny, rozproszone światło i miękkie cienie.
+
+**Unikać:** nie myl syntetycznej faktury z prawdziwą gliną i nie używaj niskiego kontrastu.
+
+**Prompt dla agenta:**
+
+```text
+Jesteś agentem projektowym. Przygotuj [FORMAT] dla [MARKA] do [CEL] dla [ODBIORCY] w stylu Soft 3D / Clay. Zbuduj kompozycję: jeden duży obiekt, kilka prostych elementów i wolna przestrzeń; zastosuj stonowane pastele i ciemny kolor tekstu; typografia: przyjazny display oraz czytelny sans. Materiały: glina lub render glinopodobny, rozproszone światło i miękkie cienie. Umieść [TREŚĆ] i [CTA] w czytelnej hierarchii, zachowaj zasady marki oraz wymagane wymiary. Używaj wyłącznie autoryzowanych zasobów, oznacz syntetyczne materiały, sprawdź kontrast, polskie znaki i czytelność w docelowym rozmiarze. Unikaj: nie myl syntetycznej faktury z prawdziwą gliną i nie używaj niskiego kontrastu. Dostarcz edytowalny projekt i eksport oraz wypisz rzeczywiście wykonane kontrole i ograniczenia.
+```

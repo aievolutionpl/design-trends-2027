@@ -1,200 +1,253 @@
 # Design Trends 2027
 
-**Jeden skill dla agenta. Szesnaście kierunków wizualnych. Konkretne decyzje zamiast ślepego podążania za modą.**
+**AI Evolution Polska przedstawia katalog 20 kierunków wizualnych dla projektantów i agentów AI.**
 
-![Wygenerowana martwa natura z papierowymi formami, szkłem i figurką](hero.png)
+Rok 2027 to horyzont twórczych prognoz i hipotez, nie potwierdzony ranking, pomiar popularności ani gwarancja skuteczności. Każdy kierunek można dostosować do medium, odbiorcy i marki. Wizualizacje są syntetycznymi interpretacjami, a nie dowodem rzeczywistych materiałów ani popularności.
 
-[Obejrzyj galerię kierunków →](https://aievolutionpl.github.io/design-trends-2027/) · [Przejdź do SKILL.md](skills/design-trends-2027/SKILL.md) · [Poznaj źródła](skills/design-trends-2027/references/sources.md)
-
-To repozytorium zawiera **jeden przenośny skill** `design-trends-2027`, a nie dziesięć osobnych skilli. Pomaga agentowi dobrać i zastosować kierunek wizualny w grafice, identyfikacji, kampanii lub interfejsie: od briefu i wyboru stylu po wykonanie oraz kontrolę czytelności i dostępności.
-
-Pierwszych **siedem kierunków** to praktyczne interpretacje tematów z [wskazanego filmu](https://youtu.be/6m7Y5SKXhks). Kolejne **dziewięć** są dodatkami redakcyjnymi opartymi na osobnych źródłach. Wszystkie należy traktować jako **prognozy i hipotezy twórcze**, nie ranking popularności, dowód skuteczności ani pomiar rynku w 2027 roku. Kierunki mogą się przenikać; nie trzeba wykorzystywać wszystkich.
-
-## Inspiracje wizualne
-
-Trzy **ilustracje wygenerowane przez AI** pokazują różne sposoby interpretacji kierunków. Papier w pierwszej grafice nie jest skanem prawdziwej pracy ręcznej; forma liter w drugiej jest dekoracyjna i nie zastępuje czytelnej typografii użytkowej.
-
-![Abstrakcyjny kolaż inspirowany ręcznie rwanym papierem i fakturą](assets/trends-analog.png)
-*Handmade i analog · prawdziwe faktury — inspiracja wizualna*
-
-![Surrealistyczna architektura z monumentalnymi formami przypominającymi litery](assets/trends-surreal-type.png)
-*Surrealizm · typografia z osobowością — inspiracja wizualna*
-
-![Radosna maskotka pośród kolorowych geometrycznych kształtów](assets/trends-playful-geometry.png)
-*Cute-morphism · ekspresyjna geometria — inspiracja wizualna*
-
-### Nowe kierunki — trzy osobne ilustracje AI
-
-Wygenerowane sceny są demonstracjami syntetycznymi, nie zdjęciami rzeczywistych obiektów ani dowodem popularności stylów.
-
-![Retrofuturystyczne okna, kursor i dyskietka w błękicie i pomarańczu](assets/trends-retro-computing.png)
-*11. Retro computing — interpretacja estetyki interfejsów; inspiracja: [Canva Prompt Playground](https://www.canva.com/newsroom/news/design-trends-2026/).*
-
-![Minimalistyczna papierowa rzeźba na ciemnozielonym tle](assets/trends-quiet-editorial.png)
-*12. Spokojny editorial — syntetyczne studium papieru; inspiracja: [Canva Opt-Out Era](https://www.canva.com/newsroom/news/design-trends-2026/).*
-
-![Dekoracyjna martwa natura z koronką, srebrem i czerwonymi kwiatami](assets/trends-ornamental-maximalism.png)
-*13. Ornamentalny maksymalizm — syntetyczna martwa natura; inspiracja: [Creative Market Rococo Romance](https://www.creativemarket.com/trends/).*
-
-### Kolejne trzy interpretacje — osobne ilustracje AI
-
-![Abstrakcyjne linie i punkty na granatowym tle](assets/trends-data-poetry.png)
-*14. Data poetry — syntetyczna ilustracja, nie wizualizacja rzeczywistych danych. Inspiracja: [Cooper Hewitt, Flight Patterns](https://www.cooperhewitt.org/2015/08/05/flight-patterns/).*
-
-![Organiczne rzeźbiarskie formy w zieleni i kremie](assets/trends-biomorphic.png)
-*15. Biomorficzna rzeźba — syntetyczne studium form; kontekst historyczny: [The Met](https://www.metmuseum.org/exhibitions/listings/2000/century-of-design-part-ii).*
-
-![Abstrakcyjna czarno-biała architektura i światłocień](assets/trends-monochrome.png)
-*16. Monochromatyczna architektura — syntetyczna kompozycja; odniesienie do formy: [The Met, Bauhaus](https://www.metmuseum.org/essays/the-bauhaus-1919-1933).*
-
-## Instalacja skilla
-
-**Punktem wejścia jest [`skills/design-trends-2027/SKILL.md`](skills/design-trends-2027/SKILL.md).** Zainstaluj cały katalog `design-trends-2027`, włącznie z `references/` — sam plik `SKILL.md` nie zawiera pełnych wskazówek i źródeł.
-
-1. Sklonuj repozytorium do nowego katalogu i przejdź do niego:
-
-   ```sh
-   git clone https://github.com/aievolutionpl/design-trends-2027.git
-   cd design-trends-2027
-   ```
-
-   Jeśli katalog już istnieje, użyj innej nazwy docelowej dla `git clone` albo przejdź do posiadanej kopii po sprawdzeniu jej zawartości.
-
-2. Sprawdź w dokumentacji swojego agenta, gdzie odkrywa lokalne skille, i ustaw `SKILLS_DIR` na **istniejący** katalog skilli. Poniższy przykład nie nadpisuje istniejącego katalogu o tej samej nazwie:
-
-   ```sh
-   # Wpisz właściwą ścieżkę dla swojego agenta:
-   SKILLS_DIR="$HOME/SCIEZKA/DO/KATALOGU_SKILLI"
-   test -d "$SKILLS_DIR" || { echo "Katalog skilli nie istnieje"; exit 1; }
-
-   if mkdir "$SKILLS_DIR/design-trends-2027"; then
-     if cp -R skills/design-trends-2027/. "$SKILLS_DIR/design-trends-2027/"; then
-       echo "Skopiowano skill wraz z references/."
-     else
-       echo "Kopiowanie nie powiodło się; sprawdź zawartość katalogu." >&2
-     fi
-   else
-     echo "Nie utworzono katalogu — sprawdź, czy już istnieje lub czy masz uprawnienia." >&2
-   fi
-   ```
-
-   Jeżeli kopiowanie zostanie przerwane, sprawdź zawartość nowo utworzonego katalogu przed ponowną próbą. Nie zastępuj istniejącego skilla bez wcześniejszego sprawdzenia jego zawartości i decyzji o aktualizacji.
-
-3. Uruchom ponownie agenta lub odśwież jego listę skilli, jeśli wymaga tego jego środowisko. Poproś go o użycie `design-trends-2027`. Mechanizm wykrywania różni się między agentami; automatyczne ładowanie nie zostało sprawdzone dla każdego z nich. Jeśli agent nie obsługuje skilli, wskaż mu `SKILL.md` oraz katalog `references/` bezpośrednio.
+[Przenośny skill](skills/design-trends-2027/SKILL.md) · [Wszystkie instrukcje i prompty](skills/design-trends-2027/references/application-recipes.md#instrukcje-i-gotowe-prompty-po-polsku) · [Źródła i ograniczenia](skills/design-trends-2027/references/sources.md)
 
 ## Jak korzystać
 
-Podaj agentowi **medium, odbiorcę, markę, cel, treść i format końcowy**. Dołącz materiały, do których masz prawa, oraz ograniczenia techniczne i dostępności. Skill prowadzi agenta przez następujący proces:
+Wybierz kierunek główny, najwyżej dwa uzupełniające, a następnie otwórz jego recepturę. Wklej prompt do agenta projektowego, uzupełnij pola w nawiasach i zweryfikuj gotowy rezultat.
 
-1. Rozpoznaj zadanie i wybierz **jeden kierunek główny oraz maksymalnie dwa pomocnicze**; wyjaśnij wybór i kompromisy.
-2. Określ hierarchię, typografię, paletę, kompozycję, obrazy lub materiały, a w interfejsie również interakcje.
-3. Przygotuj zamówiony projekt, plik lub kod, jeśli dostępne są niezbędne narzędzia i materiały — nie kończ na samym moodboardzie.
-4. Sprawdź komunikat, czytelność w docelowym rozmiarze, prawa do materiałów i prawdziwość deklaracji. W projektach interaktywnych uwzględnij także klawiaturę, fokus, kontrast, ograniczenie ruchu i wydajność.
-5. Jeśli potrzebna jest ocena, zaproponuj hipotezę i porównanie z prostszym wariantem; nie wymyślaj wyników testów.
+## Katalog stylów
 
-### Trzy gotowe prompty
+### 01. Handmade / analog
 
-**1. Plakat produktu**
+![Interpretacja stylu Handmade / analog](assets/style-01.png)
 
-> Użyj skilla `design-trends-2027`. Zaprojektuj plakat 1080 × 1350 dla niezależnej palarni kawy: odbiorcy to osoby kupujące kawę do domu, cel to promocja degustacji, a tekst to „Sobota, 11:00 — degustacja w palarni”. Wybierz handmade jako kierunek główny, a realną fakturę jako pomocniczą. Zaproponuj kompozycję, typografię, miejsce na zdjęcie i przygotuj plik, jeśli masz narzędzia. Nie przedstawiaj wygenerowanej faktury jako rzeczywiście wykonanej ręcznie. Sprawdź czytelność na telefonie.
+**Podstawy:** ciepło ręcznej pracy i materialne niedoskonałości. **Kiedy używać:** rzemiosło, gastronomia, marki autorskie.
 
-**2. Interfejs B2B**
+**Kompozycja:** jeden papierowy bohater i spokojny blok informacji. **Kolor:** krem, grafit, ceglasty akcent. **Typografia:** ekspresyjny szeryf i prosty krój tekstowy.
 
-> Użyj skilla `design-trends-2027` do zaprojektowania ekranu dashboardu B2B do monitorowania zamówień. Odbiorcą jest zespół operacyjny, celem szybkie znalezienie opóźnionych zamówień. Zaproponuj ekspresyjną geometrię jako akcent, ale zachowaj rozpoznawalne przyciski, etykiety, widoczny fokus i czytelną tabelę. Przygotuj implementację w istniejącym stosie projektu oraz sprawdź działanie na urządzeniach mobilnych i z klawiaturą. Nie wymyślaj wyników testów użytkowników.
+**Materiały:** autoryzowany papier, farba lub skan. **Unikać:** nie sugeruj rzeczywistego rękodzieła przy syntetycznej fakturze.
 
-**3. Ulotka wydarzenia**
+[Instrukcja i prompt do skopiowania →](skills/design-trends-2027/references/application-recipes.md#styl-01)
 
-> Użyj skilla `design-trends-2027`. Przygotuj koncepcję i możliwy do edycji projekt ulotki A5 dla lokalnego festiwalu ilustracji: „Festiwal Rysunku”, 18 czerwca, Dom Kultury, wstęp wolny. Sprawdź, czy świadomie naiwny styl pasuje do odbiorców, i zaproponuj jeden kierunek pomocniczy. Zostaw wyraźny blok informacji; zweryfikuj czytelność w rozmiarze wydruku i prawa do użytych ilustracji. Jeśli brakuje materiału marki, oznacz placeholder zamiast go wymyślać.
+### 02. Cute character
 
-## 16 kierunków w praktyce
+![Interpretacja stylu Cute character](assets/style-02.png)
 
-### 1. Handmade i analog
+**Podstawy:** oryginalna przyjazna postać o spójnych proporcjach. **Kiedy używać:** edukacja i onboarding.
 
-**Na czym polega:** widoczne materiały, wycinanki, farba, papier i nieregularności zestawione z uporządkowaną kompozycją. **Kiedy:** plakaty kulinarne, opakowania rzemieślnicze, okładki i kampanie. **Unikaj:** ogólnej tekstury na wszystkim, słabego kontrastu oraz nazywania generowanej imitacji pracą wykonaną ręcznie.
+**Kompozycja:** postać obok wyraźnego działania, nie zamiast niego. **Kolor:** krem, granat i koral. **Typografia:** zaokrąglony nagłówek, czytelny sans.
 
-### 2. Cute-morphism — sympatyczna postać
+**Materiały:** autorska ilustracja, zestaw mimiki i wersja monochromatyczna. **Unikać:** nie zastępuj ostrzeżeń maskotką ani nie kopiuj cudzych postaci.
 
-**Na czym polega:** prosta, charakterystyczna maskotka z ograniczoną paletą i spójnym zestawem ekspresji. **Kiedy:** edukacja, onboarding i przyjazne kampanie, jeśli ton pasuje odbiorcom. **Unikaj:** zasłaniania funkcji, błędów lub ryzyk osobowością bohatera oraz przerywania użytkownikowi zadania.
+[Instrukcja i prompt do skopiowania →](skills/design-trends-2027/references/application-recipes.md#styl-02)
 
-### 3. Proces i niedoskonałość
+### 03. Process / imperfection
 
-**Na czym polega:** pokazanie prawdziwych szkiców, zmian i decyzji jako części opowieści o gotowym projekcie. **Kiedy:** portfolio, case study, premiery i karuzele o kulisach pracy. **Unikaj:** fikcyjnych szkiców i zatwierdzeń, ujawniania poufnych materiałów oraz chaosu, który przesłania rezultat.
+![Interpretacja stylu Process / imperfection](assets/style-03.png)
 
-### 4. Prawdziwe faktury
+**Podstawy:** prawdziwe decyzje i ślady pracy. **Kiedy używać:** portfolio i studia przypadku z udokumentowanym procesem.
 
-**Na czym polega:** fotografowanie lub skanowanie rzeczywistych materiałów związanych z tematem, np. tkaniny, papieru czy opakowania. **Kiedy:** identyfikacje lokalne, okładki, plakaty i opowieści o produkcie. **Unikaj:** przypadkowego ziarna bez związku z historią i drobnego tekstu na nieprzewidywalnym tle; sprawdź prawa do materiałów.
+**Kompozycja:** wynik przed trzema chronologicznymi etapami. **Kolor:** złamana biel, grafit, niebieskie adnotacje. **Typografia:** redakcyjny szeryf i czytelne podpisy.
 
-### 5. Surrealizm
+**Materiały:** zatwierdzone szkice, notatki i fotografie. **Unikać:** nie fabrykuj etapów ani nie ujawniaj poufnych materiałów.
 
-**Na czym polega:** świadoma zmiana jednej reguły — skali, grawitacji lub kontekstu — przy spójnym świetle i perspektywie. **Kiedy:** kampanie premierowe, ilustracje redakcyjne i konceptualne reklamy. **Unikaj:** wielu niepowiązanych efektów i sugerowania, że fikcyjna scena lub instalacja wydarzyła się naprawdę.
+[Instrukcja i prompt do skopiowania →](skills/design-trends-2027/references/application-recipes.md#styl-03)
 
-### 6. Typografia z osobowością
+### 04. Found real textures
 
-**Na czym polega:** liternictwo staje się głównym obrazem, a spokojny krój wspiera dłuższy tekst. **Kiedy:** okładki, kampanie i identyfikacje typograficzne. **Unikaj:** dekoracyjnego kroju w długim tekście; sprawdź polskie znaki, licencję, łamanie na małym ekranie i czytelność.
+![Interpretacja stylu Found real textures](assets/style-04.png)
 
-### 7. Świadomie naiwny „dumb design”
+**Podstawy:** istotny dla opowieści rzeczywisty materiał. **Kiedy używać:** produkt tekstylny, miejsce, marka lokalna.
 
-**Na czym polega:** celowo niezgrabna estetyka, proste kroje, clip art i kontrolowana asymetria. **Kiedy:** oddolne wydarzenia, humorystyczne kampanie lub społeczności, którym odpowiada taki ton. **Unikaj:** mylenia zamierzonej prostoty z niedbałością — informacje i działanie muszą pozostać jasne. To najbardziej spekulatywna propozycja autora filmu.
+**Kompozycja:** duże pole faktury obok gładkiego panelu tekstu. **Kolor:** barwy materiału, kamień i ciemna zieleń. **Typografia:** mocny prosty nagłówek i czytelny tekst.
 
-### 8. Dynamiczne materiały i kontrolowana przezroczystość
+**Materiały:** własna lub licencjonowana fotografia tkaniny, kamienia albo drewna. **Unikać:** nie kładź drobnego tekstu na chaotycznej fakturze.
 
-**Na czym polega:** oszczędne użycie warstw przypominających szkło, by pokazać głębię i hierarchię interfejsu. **Kiedy:** pływająca nawigacja i kontrolki, gdy warstwowanie pomaga orientacji. **Unikaj:** rozmywania każdej karty i nakładania tekstu na niestabilne tło; zapewnij czytelną, nieprzezroczystą alternatywę. Przykład Apple jest inspiracją, nie pomiarem rynku.
+[Instrukcja i prompt do skopiowania →](skills/design-trends-2027/references/application-recipes.md#styl-04)
 
-### 9. Ekspresyjna geometria
+### 05. Surrealism
 
-**Na czym polega:** kilka spójnych reguł kształtu, proporcji i koloru nadaje interfejsowi charakter marki. **Kiedy:** strony marek, onboarding i wybrane elementy nawigacji. **Unikaj:** kształtów udających przyciski, oznaczania stanów wyłącznie kolorem i rezygnacji ze znanych kontrolek.
+![Interpretacja stylu Surrealism](assets/style-05.png)
 
-### 10. Ruch z funkcją
+**Podstawy:** jedna niemożliwa zmiana skali, grawitacji lub kontekstu. **Kiedy używać:** kampania ideowa i ilustracja redakcyjna.
 
-**Na czym polega:** animacja pomaga zrozumieć zmianę stanu, orientację lub narrację, zamiast być wyłącznie ozdobą. **Kiedy:** przejścia między krokami, informacja zwrotna i opowieści redakcyjne. **Unikaj:** ciągłego ruchu, przejmowania przewijania i ukrywania niezbędnych treści za animacją; zapewnij wersję statyczną i respektuj ograniczenie ruchu.
+**Kompozycja:** jeden bohater z konsekwentną perspektywą, osobne pole komunikatu. **Kolor:** jasne tło, ciemny atrament, jeden ciepły akcent. **Typografia:** prosty mocny sans bez konkurencji z obrazem.
 
-### 11. Zabawne retro computing
+**Materiały:** licencjonowany kolaż lub oznaczony render. **Unikać:** nie przedstawiaj fikcyjnej sceny jako dowodu cech produktu.
 
-Okna, piksele i kursor budują ilustrację dla tematów technologicznych. Faktyczne przyciski muszą pozostać odróżnialne, a tekst użytkowy czytelny.
+[Instrukcja i prompt do skopiowania →](skills/design-trends-2027/references/application-recipes.md#styl-05)
 
-### 12. Spokojny editorial
+### 06. Expressive typography
 
-Oszczędna siatka, jeden obraz, wyrazisty krój i przestrzeń wspierają dłuższą lekturę. Nie zastępuj czytelności zbyt małym tekstem ani niskim kontrastem.
+![Interpretacja stylu Expressive typography](assets/style-06.png)
 
-### 13. Ornamentalny maksymalizm
+**Podstawy:** liternictwo jako główny obraz. **Kiedy używać:** krótkie hasło, plakat i identyfikacja wydarzenia.
 
-Powtarzalne ornamenty, bogate faktury i jeden dominujący obiekt tworzą bogaty klimat; informacje umieść na spokojnym polu. Sprawdź prawa i kontekst motywów kulturowych.
+**Kompozycja:** wielki nagłówek i spokojna siatka szczegółów. **Kolor:** biel, czerń, jeden elektryczny akcent. **Typografia:** charakterystyczny krój nagłówka i neutralny tekstowy.
+
+**Materiały:** licencjonowane fonty, edytowalny tekst, ewentualnie prosty wektor. **Unikać:** nie poświęcaj polskich znaków, łamania ani czytelności.
+
+[Instrukcja i prompt do skopiowania →](skills/design-trends-2027/references/application-recipes.md#styl-06)
+
+### 07. Deliberately naive
+
+![Interpretacja stylu Deliberately naive](assets/style-07.png)
+
+**Podstawy:** świadoma zabawa prostotą i pozorną niezręcznością. **Kiedy używać:** wydarzenie społeczne, humor, niezależna kultura.
+
+**Kompozycja:** nieregularne dekoracje wokół uporządkowanych informacji. **Kolor:** papierowy krem, czerwony i niebieski. **Typografia:** prosty systemowy sans, jeden nietypowy nagłówek.
+
+**Materiały:** autorski clip art i nieskomplikowane kształty. **Unikać:** nie myl niedbałej użyteczności z zamierzoną ekspresją.
+
+[Instrukcja i prompt do skopiowania →](skills/design-trends-2027/references/application-recipes.md#styl-07)
+
+### 08. Dynamic materials
+
+![Interpretacja stylu Dynamic materials](assets/style-08.png)
+
+**Podstawy:** warstwowe półprzezroczyste powierzchnie podkreślające hierarchię. **Kiedy używać:** nawigacja i interfejs z wyraźnymi warstwami.
+
+**Kompozycja:** nieprzezroczysta treść i jeden unoszący się panel. **Kolor:** jasne neutralne powierzchnie, ciemny tekst, niebieska akcja. **Typografia:** stabilny interfejsowy sans.
+
+**Materiały:** szkło cyfrowe, kontrolowane rozmycie, pełne tło zastępcze. **Unikać:** nie rozmywaj wszystkiego i nie umieszczaj tekstu na zmiennym tle bez testu.
+
+[Instrukcja i prompt do skopiowania →](skills/design-trends-2027/references/application-recipes.md#styl-08)
+
+### 09. Expressive geometry
+
+![Interpretacja stylu Expressive geometry](assets/style-09.png)
+
+**Podstawy:** powtarzalny system dwóch lub trzech form. **Kiedy używać:** rozpoznawalna identyfikacja i system kampanii.
+
+**Kompozycja:** siatka i jedna dominująca figura, reszta pomocnicza. **Kolor:** kość słoniowa, atrament, turkusowy akcent. **Typografia:** geometryczny display i neutralny sans.
+
+**Materiały:** oryginalne wektory i czytelne konwencjonalne kontrolki. **Unikać:** nie udawaj interakcji dekoracją ani nie koduj stanów tylko kolorem.
+
+[Instrukcja i prompt do skopiowania →](skills/design-trends-2027/references/application-recipes.md#styl-09)
+
+### 10. Purposeful motion
+
+![Interpretacja stylu Purposeful motion](assets/style-10.png)
+
+**Podstawy:** ruch wyjaśnia zmianę, orientację lub reakcję. **Kiedy używać:** interfejsy i narracja cyfrowa z uzasadnioną animacją.
+
+**Kompozycja:** najpierw pełny statyczny układ, potem jeden ruch znaczący. **Kolor:** neutralna powierzchnia, ciemny tekst, akcent działania. **Typografia:** stabilny czytelny sans.
+
+**Materiały:** lekkie warstwy wektorowe, opcjonalnie licencjonowane media. **Unikać:** nie ukrywaj treści za animacją; obsłuż ograniczenie ruchu.
+
+[Instrukcja i prompt do skopiowania →](skills/design-trends-2027/references/application-recipes.md#styl-10)
+
+### 11. Playful retro computing
+
+![Interpretacja stylu Playful retro computing](assets/style-11.png)
+
+**Podstawy:** estetyka dawnych interfejsów jako współczesna zabawa. **Kiedy używać:** technologia, kultura, wydarzenia.
+
+**Kompozycja:** okna i piksele jako ramy, realne działania wyraźnie odróżnione. **Kolor:** krem, błękit i pomarańcz. **Typografia:** czytelny monospace w detalach, prosty tekst.
+
+**Materiały:** oryginalne ikony i pikselowe ornamenty. **Unikać:** nie kopiuj znaków ani nie zamieniaj ozdobnych okien w fałszywe kontrolki.
+
+[Instrukcja i prompt do skopiowania →](skills/design-trends-2027/references/application-recipes.md#styl-11)
+
+### 12. Quiet editorial
+
+![Interpretacja stylu Quiet editorial](assets/style-12.png)
+
+**Podstawy:** spokój, rytm i dużo oddechu. **Kiedy używać:** długie czytanie i opowieści premium.
+
+**Kompozycja:** asymetryczna siatka, duże marginesy, jeden obraz. **Kolor:** ciepła biel, grafit, przygaszona zieleń. **Typografia:** elegancki szeryf i oszczędny sans.
+
+**Materiały:** papier, autorska fotografia lub prosty render. **Unikać:** nie stosuj zbyt małego tekstu ani pustki bez hierarchii.
+
+[Instrukcja i prompt do skopiowania →](skills/design-trends-2027/references/application-recipes.md#styl-12)
+
+### 13. Ornamental maximalism
+
+![Interpretacja stylu Ornamental maximalism](assets/style-13.png)
+
+**Podstawy:** bogactwo ornamentu podporządkowane jednemu motywowi. **Kiedy używać:** kultura, hotelarstwo i ekspresyjny produkt.
+
+**Kompozycja:** gęsta rama i spokojne centrum z komunikatem. **Kolor:** głęboka czerwień, krem, metaliczny akcent. **Typografia:** dekoracyjny display i prosty krój szczegółów.
+
+**Materiały:** koronka, relief, srebro lub ich jawna cyfrowa interpretacja. **Unikać:** nie zasłaniaj treści ornamentem i nie mnoż motywów bez reguł.
+
+[Instrukcja i prompt do skopiowania →](skills/design-trends-2027/references/application-recipes.md#styl-13)
 
 ### 14. Data poetry
 
-Punkty i linie tworzą ekspresyjną narrację. Jeśli mają przedstawiać dane, potrzebują prawdziwego źródła, skali i legendy; ilustracja powyżej nie przedstawia pomiarów.
+![Interpretacja stylu Data poetry](assets/style-14.png)
 
-### 15. Biomorficzna rzeźba
+**Podstawy:** estetyczna forma oparta na uczciwym przedstawieniu informacji. **Kiedy używać:** artykuły i raporty z weryfikowalnymi danymi.
 
-Organiczne, nieregularne bryły tworzą spokojny wizualny język. Syntetycznej formy nie należy przedstawiać jako prawdziwego obiektu ani dowodu ekologicznego materiału.
+**Kompozycja:** jedna czytelna wizualizacja z legendą i kontekstem. **Kolor:** ciemny granat, jasne oznaczenia, pojedynczy akcent. **Typografia:** czytelny sans dla wartości i źródeł.
 
-### 16. Monochromatyczna architektura
+**Materiały:** rzeczywiste dane z datą i źródłem albo wyraźnie oznaczony wzór dekoracyjny. **Unikać:** nie prezentuj fikcyjnych punktów jako pomiarów.
 
-Światło, cień i modularna siatka budują silny kontrast. Tekst musi pozostać czytelny, a fikcyjna architektura nie może udawać prawdziwej lokalizacji.
+[Instrukcja i prompt do skopiowania →](skills/design-trends-2027/references/application-recipes.md#styl-14)
 
-Szczegółowe receptury, palety, antywzorce i QA: [receptury 11–16](skills/design-trends-2027/references/application-recipes.md). Nowe kierunki to nasze eksperymenty na podstawie źródeł historycznych i współczesnych, nie potwierdzone trendy roku 2027.
+### 15. Biomorphic sculpture
 
-## Zawartość repozytorium
+![Interpretacja stylu Biomorphic sculpture](assets/style-15.png)
 
-- [`skills/design-trends-2027/SKILL.md`](skills/design-trends-2027/SKILL.md) — instrukcja i punkt wejścia dla agenta.
-- [`references/application-recipes.md`](skills/design-trends-2027/references/application-recipes.md) — konkretne receptury projektowe, antywzorce i testy dla każdego kierunku.
-- [`references/video-directions.md`](skills/design-trends-2027/references/video-directions.md) — szczegółowe wskazówki do siedmiu kierunków z filmu.
-- [`references/additional-directions.md`](skills/design-trends-2027/references/additional-directions.md) — trzy dodatkowe kierunki.
-- [`references/sources.md`](skills/design-trends-2027/references/sources.md) — źródła, znaczniki czasu i ograniczenia interpretacji.
-- `index.html`, `style.css`, `favicon.svg`, `hero.png` — statyczna galeria; `DESIGN.md` opisuje jej decyzje projektowe, a `evidence/` zawiera materiały z badań i QA.
+**Podstawy:** miękkie organiczne kształty jako rzeźbiarski język. **Kiedy używać:** identyfikacja inspirowana naturą i opowieść produktowa.
 
-Galerię można też uruchomić lokalnie, bez instalacji zależności i kompilacji:
+**Kompozycja:** jeden organiczny obiekt na spokojnym tle. **Kolor:** ziemia, kość słoniowa i zgaszona zieleń. **Typografia:** prosty sans kontrastujący z miękką formą.
 
-```sh
-python3 -m http.server 8000
-# Otwórz http://localhost:8000
-```
+**Materiały:** glina, drewno, autorska rzeźba lub oznaczony render. **Unikać:** nie przypisuj syntetycznemu obiektowi rzeczywistego pochodzenia.
 
-## Źródła i zastrzeżenia
+[Instrukcja i prompt do skopiowania →](skills/design-trends-2027/references/application-recipes.md#styl-15)
 
-- [Film źródłowy](https://youtu.be/6m7Y5SKXhks) — siedem pierwszych tematów; pełnej transkrypcji nie dołączono.
-- [Osobny artykuł o podobnych siedmiu kierunkach](https://whattheweb.co.in/7-graphic-design-trends-for-2027-and-how-to-make-them-with-ai/) — źródło wtórne, nie dowód tożsamości filmu ani popularności kierunków.
-- [Apple: Liquid Glass](https://developer.apple.com/videos/play/wwdc2025/219/) oraz [Google: Material 3 Expressive](https://design.google/library/expressive-material-design-google-research) — przykłady i materiały producentów dotyczące materiału oraz ekspresyjnego systemu.
-- [MDN: animacje sterowane przewijaniem](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Scroll-driven_animations) i [media queries dla dostępności](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Media_queries/Using_for_accessibility) — możliwości techniczne i ograniczenie ruchu; zgodność przeglądarek należy sprawdzić dla konkretnego projektu.
+### 16. Monochrome architecture
 
-Tekst, kod i demonstracyjne ilustracje współtworzono z pomocą AI. Nie przedstawiają oryginalnych materiałów ani reprodukcji prac pokazanych w filmie. Skill wspiera decyzje projektowe, ale nie gwarantuje jakości, zgodności z dostępnością ani wyników biznesowych.
+![Interpretacja stylu Monochrome architecture](assets/style-16.png)
+
+**Podstawy:** rytm konstrukcji i światłocień w ograniczonej palecie. **Kiedy używać:** editorial, architektura, odważna typografia.
+
+**Kompozycja:** mocna siatka i jeden strukturalny motyw. **Kolor:** czerń, biel oraz szarości. **Typografia:** wyrazisty grotesk i prosty tekst pomocniczy.
+
+**Materiały:** licencjonowana fotografia architektury lub abstrakcyjny render. **Unikać:** nie opieraj znaczenia wyłącznie na kolorze i nie przypisuj Bauhausowi monochromii.
+
+[Instrukcja i prompt do skopiowania →](skills/design-trends-2027/references/application-recipes.md#styl-16)
+
+### 17. Neo-Brutalism
+
+![Interpretacja stylu Neo-Brutalism](assets/style-17.png)
+
+**Podstawy:** surowe bloki, grube obrysy i wyraziste cienie. **Kiedy używać:** odważne kampanie, strony i produkty o nieformalnym tonie.
+
+**Kompozycja:** modułowa siatka, wyraźne obramowania, czytelne CTA. **Kolor:** dwa lub trzy intensywne kolory oraz czarny tekst. **Typografia:** ciężki grotesk w nagłówku, neutralny sans w tekście.
+
+**Materiały:** płaskie wektory, ostre krawędzie, przesunięte twarde cienie. **Unikać:** nie zakładaj dostępności bez pomiaru kontrastu i testu sterowania.
+
+[Instrukcja i prompt do skopiowania →](skills/design-trends-2027/references/application-recipes.md#styl-17)
+
+### 18. Risograph Layers
+
+![Interpretacja stylu Risograph Layers](assets/style-18.png)
+
+**Podstawy:** warstwy farb, raster i subtelne przesunięcie pasowania. **Kiedy używać:** plakaty, zin i identyfikacja kulturalna.
+
+**Kompozycja:** dwie lub trzy warstwy z centralnym motywem i spokojnym blokiem tekstu. **Kolor:** ograniczona paleta farb punktowych, np. niebieski i róż. **Typografia:** masywny nagłówek, mały tekst w jednej ciemnej farbie.
+
+**Materiały:** papier, półprzezroczyste nadruki, rastry; przy druku osobna separacja na farbę. **Unikać:** nie nakładaj kilku farb na drobny tekst; uzgodnij specyfikację z drukarnią.
+
+[Instrukcja i prompt do skopiowania →](skills/design-trends-2027/references/application-recipes.md#styl-18)
+
+### 19. Cinematic Light & Shadow
+
+![Interpretacja stylu Cinematic Light & Shadow](assets/style-19.png)
+
+**Podstawy:** kierunkowe światło i kontrolowany cień budują dramaturgię. **Kiedy używać:** kampania premium, portret, prezentacja produktu.
+
+**Kompozycja:** jeden punkt skupienia, światło boczne i czytelna przestrzeń na tekst. **Kolor:** głębokie neutralne cienie i jeden ciepły lub chłodny akcent. **Typografia:** oszczędny wyrazisty nagłówek, spokojny tekst.
+
+**Materiały:** fotografia lub render, światło kluczowe i kontrolowane wypełnienie. **Unikać:** nie gub detali produktu w czerni i nie twierdź, że render jest zdjęciem.
+
+[Instrukcja i prompt do skopiowania →](skills/design-trends-2027/references/application-recipes.md#styl-19)
+
+### 20. Soft 3D / Clay
+
+![Interpretacja stylu Soft 3D / Clay](assets/style-20.png)
+
+**Podstawy:** zaokrąglone bryły o miękkim, matowym wykończeniu. **Kiedy używać:** przyjazne ilustracje, onboarding i opakowania.
+
+**Kompozycja:** jeden duży obiekt, kilka prostych elementów i wolna przestrzeń. **Kolor:** stonowane pastele i ciemny kolor tekstu. **Typografia:** przyjazny display oraz czytelny sans.
+
+**Materiały:** glina lub render glinopodobny, rozproszone światło i miękkie cienie. **Unikać:** nie myl syntetycznej faktury z prawdziwą gliną i nie używaj niskiego kontrastu.
+
+[Instrukcja i prompt do skopiowania →](skills/design-trends-2027/references/application-recipes.md#styl-20)

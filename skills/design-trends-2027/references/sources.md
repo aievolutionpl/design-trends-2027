@@ -36,3 +36,12 @@ All three new directions are experiments extrapolated from 2026 sources, not est
 - [The Metropolitan Museum of Art, The Bauhaus](https://www.metmuseum.org/essays/the-bauhaus-1919-1933) discusses the school's modernist architecture and design. Direction 16 interprets its structural vocabulary; monochrome imagery is our editorial choice, not a claim that Bauhaus design was monochrome.
 
 These historical examples establish design precedents, not evidence of 2027 adoption, popularity, or effectiveness.
+
+## Four additional directions — research
+
+- [Nielsen Norman Group, Neobrutalism](https://www.nngroup.com/articles/neobrutalism/) — defines block layouts, heavy borders and usability considerations for direction 17.
+- [Reprographixxx, Riso printing guide](https://reprographix.ink/risograph-printing/guide/) — spot inks, transparent overprinting, registration and small-type cautions for direction 18. Printing specifications vary by studio.
+- [Screenworks, Virtual Illumination](https://doi.org/10.37186/swrks/7.2/3) — principles of lighting in computer graphics relevant to direction 19.
+- [Omoro, Claymorphism brief](https://www.omoro.io/photography/clay-style) — rounded matte forms and diffused light as practical references for direction 20.
+
+These explain techniques and precedents, not measured 2027 adoption, popularity or efficacy.
